@@ -22,7 +22,7 @@ public class User {
 
     long ssn;
 
-    Calendar userSince;
+//    Calendar userSince;
 
     boolean admin;
 
@@ -66,13 +66,13 @@ public class User {
         this.ssn = ssn;
     }
 
-    public Calendar getUserSince() {
-        return userSince;
-    }
-
-    public void setUserSince(Calendar userSince) {
-        this.userSince = userSince;
-    }
+//    public Calendar getUserSince() {
+//        return userSince;
+//    }
+//
+//    public void setUserSince(Calendar userSince) {
+//        this.userSince = userSince;
+//    }
 
     public boolean isAdmin() {
         return admin;

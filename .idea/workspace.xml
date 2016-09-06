@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="499b5121-b871-4418-a9be-c35093c68c9b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/BillStorage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/BillStorageDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/Statistics.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/StatisticsDao.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java" afterPath="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java" />
     </list>
     <ignored path="Cap$tone WABEDI? ~~ Would Abe Do It?.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BillsDao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/BillsDao.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="61" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="61" />
+            <state relative-caret-position="720">
+              <caret line="68" column="3" selection-start-line="68" selection-start-column="3" selection-end-line="74" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -719,16 +716,16 @@
       <updated>1472756542148</updated>
       <workItem from="1472756543678" duration="3367000" />
       <workItem from="1472761085601" duration="5209000" />
-      <workItem from="1472781415618" duration="18073000" />
+      <workItem from="1472781415618" duration="18191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26649000" />
+    <option name="totallyTimeSpent" value="26767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="67" width="1276" height="777" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -743,7 +740,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.31970802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27147487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27147487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1207,47 +1204,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1473194286000" expanded="true" signature="41:133" ph="..." />
-            <marker date="1473194286000" expanded="true" signature="135:174" ph="/**...*/" />
-            <marker date="1473194286000" expanded="true" signature="175:204" ph="@{...}" />
-            <marker date="1473194286000" expanded="true" signature="229:284" ph="@{...}" />
-            <marker date="1473194286000" expanded="false" signature="449:460" ph=" { " />
-            <marker date="1473194286000" expanded="false" signature="470:476" ph=" }" />
-            <marker date="1473194286000" expanded="false" signature="508:519" ph=" { " />
-            <marker date="1473194286000" expanded="false" signature="532:538" ph=" }" />
-            <marker date="1473194286000" expanded="false" signature="567:578" ph=" { " />
-            <marker date="1473194286000" expanded="false" signature="590:596" ph=" }" />
-            <marker date="1473194286000" expanded="false" signature="634:645" ph=" { " />
-            <marker date="1473194286000" expanded="false" signature="662:668" ph=" }" />
-            <marker date="1473194286000" expanded="false" signature="698:709" ph=" { " />
-            <marker date="1473194286000" expanded="false" signature="722:728" ph=" }" />
-            <marker date="1473194286000" expanded="false" signature="768:779" ph=" { " />
-            <marker date="1473194286000" expanded="false" signature="798:804" ph=" }" />
-            <marker date="1473194286000" expanded="false" signature="837:848" ph=" { " />
-            <marker date="1473194286000" expanded="false" signature="864:870" ph=" }" />
-            <marker date="1473194286000" expanded="false" signature="916:927" ph=" { " />
-            <marker date="1473194286000" expanded="false" signature="952:958" ph=" }" />
-            <marker date="1473194286000" expanded="false" signature="984:995" ph=" { " />
-            <marker date="1473194286000" expanded="false" signature="1006:1012" ph=" }" />
-            <marker date="1473194286000" expanded="false" signature="1046:1057" ph=" { " />
-            <marker date="1473194286000" expanded="false" signature="1072:1078" ph=" }" />
-            <marker date="1473194286000" expanded="false" signature="1114:1125" ph=" { " />
-            <marker date="1473194286000" expanded="false" signature="1142:1148" ph=" }" />
-            <marker date="1473194286000" expanded="false" signature="1198:1209" ph=" { " />
-            <marker date="1473194286000" expanded="false" signature="1236:1242" ph=" }" />
-            <marker date="1473194286000" expanded="false" signature="1272:1283" ph=" { " />
-            <marker date="1473194286000" expanded="false" signature="1296:1302" ph=" }" />
-            <marker date="1473194286000" expanded="false" signature="1343:1354" ph=" { " />
-            <marker date="1473194286000" expanded="false" signature="1373:1379" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/AdminDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1298,6 +1254,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="61" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="61" />
+          <folding>
+            <marker date="1472766433000" expanded="true" signature="41:157" ph="..." />
+            <marker date="1472766433000" expanded="true" signature="159:198" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="68" column="3" selection-start-line="68" selection-start-column="3" selection-end-line="74" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
