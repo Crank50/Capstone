@@ -18,18 +18,14 @@ public class Bills {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @NotNull
     String title;
 
-    @NotNull
-    @Column(columnDefinition = "Blob")
+//    @Column(columnDefinition = "Blob")
     private ArrayList<String> content;
 
-    @NotNull
     String author;
 
-    @NotNull
-    @Column(columnDefinition = "Blob")
+//    @Column(columnDefinition = "Blob")
     private ArrayList<String> synopsis;
 
     long yesVote;

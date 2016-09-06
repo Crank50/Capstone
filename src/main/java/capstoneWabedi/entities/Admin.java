@@ -14,22 +14,16 @@ public class Admin {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @NotNull
     String name;
 
-    @NotNull
     String email;
 
-    @NotNull
     String location;
 
-    @NotNull
     long ssn;
 
-    @NotNull
     Calendar userSince;
 
-    @NotNull
     boolean admin;
 
     public long getId() {
