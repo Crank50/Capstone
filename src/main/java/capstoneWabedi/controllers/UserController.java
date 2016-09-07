@@ -24,16 +24,12 @@ public class UserController {
         Assert.notNull(userDao, "UserDao must not be null!");
         this.userDao = userDao;
     }
-    @RequestMapping(value="/")
-    public String allUsers(ModelMap model) {
-        Iterable<User> users = userDao.findAll();
-        model.addAttribute("users",users);
-        return "WebUi/mainPage";
-    }
+
 
     @RequestMapping(value="saveNewUser")
-    public View saveNewQuestion(User user) {
+    public View saveNewQuestion(User user,ModelMap modelMap) {
         userDao.save(user);
+        modelMap.addAttribute("Users",user);
         return new RedirectView("/user/");
     }
 }
