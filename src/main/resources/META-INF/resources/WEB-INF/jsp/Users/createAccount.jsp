@@ -10,8 +10,8 @@
 <h1>Create User</h1>
 
 
-<form:form id="userForm" commandName="user" method="POST" action="/user/saveNewUser" >
-<form:label path="name" modelAttribute="name">Name: </form:label>
+<form:form id="userForm" commandName="user" modelAttribute="user" method="POST" action="/user/saveNewUser" >
+<form:label path="name" >Name: </form:label>
 <form:input path="name" id="name" maxlength="255" size="100" />
 </form:form>
 -----form----
