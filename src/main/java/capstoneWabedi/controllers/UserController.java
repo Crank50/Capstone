@@ -34,7 +34,7 @@ public class UserController {
     @RequestMapping(value="/saveNewUser")
     public View saveNewQuestion(User user,ModelMap modelMap) {
         userDao.save(user);
-//        modelMap.addAttribute("Users",user);
+        modelMap.addAttribute("Users",user);
         return new RedirectView("/user/");
     }
 }
