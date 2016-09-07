@@ -10,7 +10,7 @@
 <body>
 <h1></h1>
 
- <a href="/WEB-INF/jsp/WebUi/userPage.jsp"> What would Abe Do? </a>
+ <a href="/WebUi/userPage"> What would Abe Do? </a>
 
 </body>
 </html>
