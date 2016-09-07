@@ -11,6 +11,7 @@
 <form:form id="name" commandName="name" method="POST" action="/user/saveNewUser">
 <form:label path="name">Name:</form:label>
 <form:input path="name" id="name" maxlength="255" size="100" />
+</form:form>
 -----form----
 name
 state, city, zip
