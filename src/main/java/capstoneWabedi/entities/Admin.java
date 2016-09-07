@@ -8,7 +8,7 @@ import java.util.Calendar;
  * Created by Justin on 9/1/16.
  */
 @Entity
-@Table(name = "admin")
+@Table(name = "admins")
 public class Admin {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

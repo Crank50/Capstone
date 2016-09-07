@@ -9,7 +9,7 @@ import java.util.Enumeration;
  * Created by Justin on 9/1/16.
  */
 @Entity
-@Table(name = "bills")
+@Table(name = "bill")
 public class Bills {
     public static enum relevance { STATE,NATIONAL}
 
