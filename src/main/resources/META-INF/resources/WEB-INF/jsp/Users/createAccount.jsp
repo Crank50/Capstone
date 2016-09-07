@@ -12,7 +12,7 @@
 
 <form:form id="userForm" commandName="user" modelAttribute="user" method="POST" action="/user/saveNewUser" >
     <form:label path="name" >Name: </form:label>
-<form:input path="name" id="name" maxlength="255" size="100" />
+<form:input path="name" id="name"  placeholder="Jane Doe" maxlength="255" size="100" />
     <br>
     <br>
 
@@ -25,32 +25,32 @@
 
 
     <form:label path="city" >City: </form:label>
-<form:input path="city" id="city" maxlength="255" size="100" />
+<form:input path="city" id="city" placeholder="Salt Lake City" maxlength="255" size="100" />
     <br>
     <br>
 
     <form:label path="zip" >Zip: </form:label>
-<form:input path="zip" id="zip" maxlength="255" size="100" />
+<form:input path="zip" id="zip" placeholder="84009" maxlength="255" size="100" />
     <br>
     <br>
 
     <form:label path="email" >Email: </form:label>
-<form:input path="email" id="email" maxlength="255" size="100" />
+<form:input path="email" id="email"  placeholder="generic_email@gmail.com" maxlength="255" size="100" />
     <br>
     <br>
 
     <form:label path="phone" >Phone: </form:label>
-<form:input path="phone" id="phone" maxlength="255" size="100" />
+<form:input path="phone" id="phone"  placeholder="1112223333" maxlength="255" size="100" />
     <br>
     <br>
 
     <form:label path="ssn" >SSN: </form:label>
-<form:input path="ssn" id="ssn" maxlength="255" size="100" />
+<form:input path="ssn"  id="ssn"  placeholder="777119999" maxlength="255" size="100" />
     <br>
     <br>
 
     <form:label path="admin" >Admin # --optional--: </form:label>
-<form:input path="admin" id="admin" maxlength="255" size="100" />
+<form:input path="admin" id="admin" placeholder="Requires Special Key" maxlength="255" size="100" />
 </form:form>
 -----form----
 name
