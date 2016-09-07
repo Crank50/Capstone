@@ -98,7 +98,7 @@ public class User {
         this.userSince = userSince;
     }
 
-    public String isAdmin() {
+    public String getAdmin() {
         return admin;
     }
 
