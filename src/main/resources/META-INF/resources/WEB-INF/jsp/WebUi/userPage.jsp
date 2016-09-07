@@ -11,9 +11,9 @@
 <table>
     <tr>
 
-<th><a href="/WebUi/userPage">Login</a></th>
+<th><a href="/webUi/userPage">Login</a></th>
 <th>  |  </th>
-<th><a href="/WebUi/createAccount">Create Account</a></tr>
+<th><a href="/user/createAccount">Create Account</a></tr>
     </tr>
     </table>
 

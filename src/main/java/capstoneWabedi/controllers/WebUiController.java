@@ -11,10 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class WebUiController {
 
 
-    @RequestMapping(value ="/createAccount")
-    public String crtAcnnt() {
-        return "Users/createAccount";}
-
     @RequestMapping(value ="/userPage")
     public String userPage() {
         return "WebUi/userPage";}

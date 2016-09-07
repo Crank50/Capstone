@@ -14,10 +14,15 @@ import org.springframework.web.servlet.view.RedirectView;
  * Created by Justin on 9/1/16.
  */
 @Controller
-@RequestMapping(value="/user/")
+@RequestMapping(value="/user")
 public class UserController {
 
     private final UserDao userDao;
+
+    @RequestMapping(value ="/createAccount")
+    public String crtAcnnt() {
+        return "Users/createAccount";}
+
 
     @Autowired
     public UserController(UserDao userDao) {
