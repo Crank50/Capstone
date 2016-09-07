@@ -21,7 +21,7 @@ public class UserController {
 
     @RequestMapping(value ="/createAccount")
     public String crtAcnnt() {
-        return "Users/createAccount";}
+        return "/Users/createAccount";}
 
 
     @Autowired
