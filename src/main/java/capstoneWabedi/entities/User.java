@@ -55,6 +55,13 @@ public class User {
         this.email = email;
     }
 
+    public STATES getStates() {
+        return states;
+    }
+
+    public void setStates(STATES states) {
+        this.states = states;
+    }
 
     public String getCity() {
         return city;
