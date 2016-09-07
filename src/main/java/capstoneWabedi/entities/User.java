@@ -18,17 +18,12 @@ public class User {
     private STATES states;
 
     String name;
-
     String email;
-
     String city;
     String zip;
-
-
+    long phone;
     long ssn;
-
     Calendar userSince;
-
     boolean admin;
 
     public long getId() {
@@ -77,6 +72,14 @@ public class User {
 
     public void setZip(String zip) {
         this.zip = zip;
+    }
+
+    public long getPhone() {
+        return phone;
+    }
+
+    public void setPhone(long phone) {
+        this.phone = phone;
     }
 
     public long getSsn() {
