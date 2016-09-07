@@ -52,19 +52,12 @@
     <form:label path="admin" >Admin # --optional--: </form:label>
 <form:input path="admin" id="admin" placeholder="Requires Special Key" maxlength="255" size="100" />
 
+    <br>
+    <br>
     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
     <input type="submit">
 
 </form:form>
------form----
-name
-state, city, zip
-email
-phone
-SSN
-admin # optional
-submit
----------------
 
 </body>
 </html>

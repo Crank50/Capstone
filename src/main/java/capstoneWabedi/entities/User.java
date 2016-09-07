@@ -21,10 +21,10 @@ public class User {
     String email;
     String city;
     String zip;
-    long phone;
-    long ssn;
+    String phone;
+    String ssn;
     Calendar userSince;
-    boolean admin;
+    String admin;
 
     public long getId() {
         return id;
@@ -74,19 +74,19 @@ public class User {
         this.zip = zip;
     }
 
-    public long getPhone() {
+    public String getPhone() {
         return phone;
     }
 
-    public void setPhone(long phone) {
+    public void setPhone(String phone) {
         this.phone = phone;
     }
 
-    public long getSsn() {
+    public String getSsn() {
         return ssn;
     }
 
-    public void setSsn(long ssn) {
+    public void setSsn(String ssn) {
         this.ssn = ssn;
     }
 
@@ -98,11 +98,11 @@ public class User {
         this.userSince = userSince;
     }
 
-    public boolean isAdmin() {
+    public String isAdmin() {
         return admin;
     }
 
-    public void setAdmin(boolean admin) {
+    public void setAdmin(String admin) {
         this.admin = admin;
     }
 }
