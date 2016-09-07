@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<form:form id="userForm" commandName="userForm" method="POST" action="/user/saveNewUser" >
+<form:form id="userForm" commandName="user" method="POST" action="/user/saveNewUser" >
 <form:label path="name" modelAttribute="name">Name: </form:label>
 <form:input path="name" id="name" maxlength="255" size="100" />
 </form:form>
