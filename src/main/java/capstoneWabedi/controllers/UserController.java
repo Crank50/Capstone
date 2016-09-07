@@ -20,7 +20,8 @@ public class UserController {
     private final UserDao userDao;
 
     @RequestMapping(value ="/createAccount")
-    public String crtAcnnt() {
+    public String crtAcnnt(ModelMap modelMap, User user) {
+        modelMap.addAttribute("user",user);
         return "/Users/createAccount";}
 
 
