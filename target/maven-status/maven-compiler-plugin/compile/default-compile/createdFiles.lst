@@ -8,7 +8,6 @@ capstoneWabedi/entities/Admin.class
 capstoneWabedi/entities/User.class
 capstoneWabedi/entities/UserDao.class
 capstoneWabedi/controllers/UserController.class
-capstoneWabedi/controllers/UserController$1.class
 capstoneWabedi/entities/User$STATES.class
 capstoneWabedi/entities/BillsDao.class
 capstoneWabedi/entities/Bills.class
