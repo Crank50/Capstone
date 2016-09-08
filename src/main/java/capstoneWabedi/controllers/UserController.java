@@ -44,20 +44,10 @@ public class UserController {
 
 
     @RequestMapping(value="/saveNewUser")
-    public String saveNewUser( User user) {
+    public String saveNewUser(User user,ModelMap modelMap) {
         userDao.save(user);
+        modelMap.addAttribute("user", user);
 
-//        if (!NewUserFile.isEmpty()) {
-//            try {
-//                Files.write(Paths.get("/Users/Justin/UPLOADS_Capstone_Users/"+NewUserFile.getOriginalFilename()),NewUserFile.getBytes());
-//                System.out.println("-------- File Upload Successful");
-//                addUploadToDatabase("/Users/Justin/UPLOADS_Capstone_Users/"+NewUserFile.getOriginalFilename());
-//            } catch (IOException | RuntimeException e) {
-//                e.printStackTrace();
-//            }
-//        } else {
-//            System.out.println("-------- File Is EMPTY!");
-//        }
         return "/Users/userCreation";
     }
 //    private void addUploadToDatabase(String filePath) {
