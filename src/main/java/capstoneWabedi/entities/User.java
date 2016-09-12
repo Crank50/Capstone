@@ -20,6 +20,7 @@ public class User {
     private  String name;
     private String userName;
     private String password;
+    private String matchingPassword;
     private String email;
     private String city;
     private String zip;
@@ -27,7 +28,6 @@ public class User {
     private String ssn;
     private Calendar userSince;
     private String admin;
-    private boolean pass;
 
     public long getId() {
         return id;
@@ -59,6 +59,14 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getMatchingPassword() {
+        return matchingPassword;
+    }
+
+    public void setMatchingPassword(String matchingPassword) {
+        this.matchingPassword = matchingPassword;
     }
 
     public String getEmail() {
@@ -124,13 +132,6 @@ public class User {
     public void setAdmin(String admin) {
         this.admin = admin;
     }
-
-    public boolean isPass() {
-        return pass;
-    }
-
-    public void setPass(boolean pass) {
-        this.pass = pass;
-    }
+    
 }
 
