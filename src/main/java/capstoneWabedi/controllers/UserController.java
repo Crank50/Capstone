@@ -26,6 +26,11 @@ public class UserController {
     @RequestMapping(value ="/createAccount")
     public String crtAcnnt(ModelMap modelMap) {
         modelMap.addAttribute("user", new User());
+        return "/Users/createAccount";}
+
+    @RequestMapping(value ="/userCreation")
+    public String crtedAcnnt(ModelMap modelMap) {
+        modelMap.addAttribute("user", new User());
         return "/Users/userCreation";}
 
 
