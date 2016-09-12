@@ -26,6 +26,9 @@
     <form:label path="password" >Password: </form:label>
 <form:input path="password" id="password"  placeholder="Enter Password" maxlength="255" size="100" />
     <br>
+    <br>   <form:label path="matchingPassword" >Confirm Password: </form:label>
+<form:input path="matchingPassword" id="matchingPassword"  placeholder="Confirm Password" maxlength="255" size="100" />
+    <br>
     <br>
 
     <form:label path="states">State:</form:label>

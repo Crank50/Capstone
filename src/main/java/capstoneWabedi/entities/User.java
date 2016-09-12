@@ -13,31 +13,32 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
+
     public static enum STATES { ALABAMA,ALASKA,AMERICAN_SAMOA,ARIZONA,ARKANSAS,CALIFORNIA,COLORADO,CONNECTICUT,DELAWARE,FLORIDA,GEORGIA,GUAM,HAWAII,IDAHO,ILLINOIS,INDIANA,IOWA,KANSAS,KENTUCKY,LOUSIANA,MAINE,MARYLAND,MASSACHUSETTS,MICHIGAN,MINNESOTA,MISSISSIPPI,MISSOURI,MONTANA,NEBRASKA,NEVADA,NEW_HAMPSHIRE,NEW_JERSEY,NEW_MEXICO,NEW_YORK,NORTH_CAROLINA,NORTH_DAKOTA,OHIO,OKLAHOMA,OREGON,PENNSYLVANIA,PUERTO_RICO,RHODE_ISLAND,SOUTH_CAROLINA,SOUTH_DAKOTA,TENNESSEE,TEXAS,US_VIRGIN_ISLANDS,UTAH,VERMONT,VIRGINA,WASHINGTON,WEST_VIRGINA,WISCONSIN,WYOMOING,}
 
     private STATES states;
     @NotNull
-    String name;
+    private  String name;
     @NotNull
-    String userName;
+    private String userName;
     @NotNull
-    String password;
+    private String password;
     @NotNull
-    String matchingPassword;
+    private String matchingPassword;
     @NotNull
-    String email;
+    private String email;
     @NotNull
-    String city;
+    private String city;
     @NotNull
-    String zip;
+    private String zip;
     @NotNull
-    String phone;
+    private String phone;
     @NotNull
-    String ssn;
+    private String ssn;
     @NotNull
-    Calendar userSince;
+    private Calendar userSince;
     @NotNull
-    String admin;
+    private String admin;
 
     public long getId() {
         return id;
