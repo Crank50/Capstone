@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="499b5121-b871-4418-a9be-c35093c68c9b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java" afterPath="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java" />
     </list>
     <ignored path="Cap$tone WABEDI? ~~ Would Abe Do It?.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="360">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,9 +94,9 @@
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/PasswordValidator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp" />
         <option value="$PROJECT_DIR$/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/createAccount.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java" />
       </list>
     </option>
   </component>
@@ -915,12 +916,12 @@
       <workItem from="1472781415618" duration="33309000" />
       <workItem from="1473350533224" duration="18008000" />
       <workItem from="1473694052032" duration="1944000" />
-      <workItem from="1473698105523" duration="7922000" />
+      <workItem from="1473698105523" duration="8103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69759000" />
+    <option name="totallyTimeSpent" value="69940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="84" width="1276" height="777" extended-state="0" />
@@ -1456,24 +1457,24 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
-          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
           <folding>
-            <marker date="1473709392000" expanded="true" signature="44:815" ph="..." />
-            <marker date="1473709392000" expanded="true" signature="817:856" ph="/**...*/" />
-            <marker date="1473709392000" expanded="true" signature="857:899" ph="@{...}" />
-            <marker date="1473709392000" expanded="true" signature="1025:1126" ph="{...}" />
-            <marker date="1473709392000" expanded="true" signature="1219:1311" ph="{...}" />
-            <marker date="1473709392000" expanded="true" signature="1417:1537" ph="{...}" />
-            <marker date="1473709392000" expanded="true" signature="1608:1652" ph="{...}" />
-            <marker date="1473709392000" expanded="true" signature="1653:2775" ph="//..." />
+            <marker date="1473709573000" expanded="true" signature="44:815" ph="..." />
+            <marker date="1473709573000" expanded="true" signature="817:856" ph="/**...*/" />
+            <marker date="1473709573000" expanded="true" signature="857:899" ph="@{...}" />
+            <marker date="1473709573000" expanded="true" signature="1025:1126" ph="{...}" />
+            <marker date="1473709573000" expanded="true" signature="1219:1311" ph="{...}" />
+            <marker date="1473709573000" expanded="true" signature="1417:1536" ph="{...}" />
+            <marker date="1473709573000" expanded="true" signature="1607:1651" ph="{...}" />
+            <marker date="1473709573000" expanded="true" signature="1652:2774" ph="//..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state relative-caret-position="360">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

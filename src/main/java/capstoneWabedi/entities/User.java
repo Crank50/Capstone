@@ -8,7 +8,7 @@ import java.util.Calendar;
  * Created by Justin on 9/1/16.
  */
 @Entity
-@Table(name = "users")
+@Table(name = "user")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -17,27 +17,16 @@ public class User {
     public static enum STATES { ALABAMA,ALASKA,AMERICAN_SAMOA,ARIZONA,ARKANSAS,CALIFORNIA,COLORADO,CONNECTICUT,DELAWARE,FLORIDA,GEORGIA,GUAM,HAWAII,IDAHO,ILLINOIS,INDIANA,IOWA,KANSAS,KENTUCKY,LOUSIANA,MAINE,MARYLAND,MASSACHUSETTS,MICHIGAN,MINNESOTA,MISSISSIPPI,MISSOURI,MONTANA,NEBRASKA,NEVADA,NEW_HAMPSHIRE,NEW_JERSEY,NEW_MEXICO,NEW_YORK,NORTH_CAROLINA,NORTH_DAKOTA,OHIO,OKLAHOMA,OREGON,PENNSYLVANIA,PUERTO_RICO,RHODE_ISLAND,SOUTH_CAROLINA,SOUTH_DAKOTA,TENNESSEE,TEXAS,US_VIRGIN_ISLANDS,UTAH,VERMONT,VIRGINA,WASHINGTON,WEST_VIRGINA,WISCONSIN,WYOMOING,}
 
     private STATES states;
-    @NotNull
     private  String name;
-    @NotNull
     private String userName;
-    @NotNull
     private String password;
-    @NotNull
     private String matchingPassword;
-    @NotNull
     private String email;
-    @NotNull
     private String city;
-    @NotNull
     private String zip;
-    @NotNull
     private String phone;
-    @NotNull
     private String ssn;
-    @NotNull
     private Calendar userSince;
-    @NotNull
     private String admin;
 
     public long getId() {
