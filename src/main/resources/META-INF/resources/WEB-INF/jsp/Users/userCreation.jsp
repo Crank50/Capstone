@@ -8,8 +8,9 @@
 </head>
 <body>
 <h1>User Creation</h1>
+<form:form id="yes"  modelAttribute="user" commandName="user" method="POST" action="/user/saveNewUser" >
 
-<c:if test="${user.admin== 'admin'}">
+    <c:if test="${user.admin== 'admin'}">
      admin privileges granted
 </c:if>
 <br>
@@ -28,13 +29,10 @@
 <c:out value="${user.userSince}" />
 <br>
 
-<form:form id="yes"  modelAttribute="user" commandName="user" method="POST" action="/user/saveNewUser" >
     <button type="submit" name="Yes"> Yes </button>
-    <c:set var="pass" value="true"/>
 </form:form>
 <form:form id="no"   method="POST" action="/user/createAccount" >
     <button type="submit" name="No"> No </button>
-    <c:set var="pass" value="false"/>
 
 </form:form>
 
