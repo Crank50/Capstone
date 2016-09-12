@@ -1,8 +1,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <html>
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+
     <title>WWAD Create Account </title>
 
 </head>
@@ -26,8 +29,7 @@
     <br>
 
     <form:label path="states">State:</form:label>
-    <form:select path="states" id="states">
-        <form:options items="${STATES}" />
+    <form:select path="states" id="states"><form:options items="${STATES}" />
     </form:select>
     <br>
     <br>

@@ -17,15 +17,27 @@ public class User {
 
     private STATES states;
 
+    @NotNull
     String name;
+    @NotNull
     String userName;
+    @NotNull
     String password;
+    @NotNull
+    String matchingPassword;
+    @NotNull
     String email;
+    @NotNull
     String city;
+    @NotNull
     String zip;
+    @NotNull
     String phone;
+    @NotNull
     String ssn;
+    @NotNull
     Calendar userSince;
+    @NotNull
     String admin;
 
     public long getId() {
@@ -58,6 +70,14 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getMatchingPassword() {
+        return matchingPassword;
+    }
+
+    public void setMatchingPassword(String matchingPassword) {
+        this.matchingPassword = matchingPassword;
     }
 
     public String getEmail() {
