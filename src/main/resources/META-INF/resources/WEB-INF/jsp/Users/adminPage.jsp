@@ -7,6 +7,24 @@
 </head>
 <body>
 <h1></h1>
+<c:forEach var="user" items="${user}">
+<tr>
+        <c:out value="${user.id}" />
+    <br>
+        <c:out value="${user.name}" />
+    <br>
+        <c:out value="${user.email}"/>
+    <br>
+        <c:out value="${user.city}" />
+    <br>
+        <c:out value="${user.zip}" />
+    <br>
+        <c:out value="${user.phone}" />
+    <br>
+        <c:out value="${user.ssn}" />
+    <br>
+        <c:out value="${user.userSince}" />
+    <br>
 
 </body>
 </html>
