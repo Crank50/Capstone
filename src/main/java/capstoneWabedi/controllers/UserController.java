@@ -28,17 +28,11 @@ public class UserController {
         modelMap.addAttribute("user", new User());
         return "/Users/createAccount";}
 
-    @RequestMapping(value ="/userCreation")
-    public String crtedAcnnt(ModelMap modelMap,User user) {
-        modelMap.addAttribute("user", user);
-        return "/Users/userCreation";}
 
 
-
-
-
-    @RequestMapping(value="/saveNewUser")
+    @RequestMapping(value="/userCreation")
     public String saveNewUser(User user,ModelMap modelMap) {
+        if ( user.isPass()  = true ){
         userDao.save(user);
         modelMap.addAttribute("user", user);
 

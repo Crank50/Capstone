@@ -29,9 +29,12 @@
 
 <form:form id="yes"   method="POST" action="/user/saveNewUser" >
     <button type="submit" name="Yes"> Yes </button>
+    <c:set var="pass" value="true"/>
 </form:form>
 <form:form id="no"   method="POST" action="/user/createAccount" >
     <button type="submit" name="No"> No </button>
+    <c:set var="pass" value="false"/>
+
 </form:form>
 
 

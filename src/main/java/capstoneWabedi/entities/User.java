@@ -28,6 +28,7 @@ public class User {
     private String ssn;
     private Calendar userSince;
     private String admin;
+    private boolean pass;
 
     public long getId() {
         return id;
@@ -132,4 +133,13 @@ public class User {
     public void setAdmin(String admin) {
         this.admin = admin;
     }
+
+    public boolean isPass() {
+        return pass;
+    }
+
+    public void setPass(boolean pass) {
+        this.pass = pass;
+    }
 }
+
