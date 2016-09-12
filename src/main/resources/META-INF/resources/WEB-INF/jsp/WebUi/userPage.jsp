@@ -15,7 +15,7 @@
 <th>  |  </th>
 <th><a href="/user/createAccount">Create Account</a></th>
         <th>  |  </th>
-<th><a href="/admin">View all Users</a>
+<th><a href="/admin/">View all Users</a>
     </tr>
     </table>
 
