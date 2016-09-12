@@ -13,7 +13,7 @@
 <h1>Create User</h1>
 
 
-<form:form id="userForm" commandName="user" modelAttribute="user" method="POST" action="/user/saveNewUser" >
+<form:form id="userForm" commandName="user" modelAttribute="user" method="POST" action="/Users/userCreation" >
     <form:label path="name" >Name: </form:label>
 <form:input path="name" id="name"  placeholder="Jane Doe" maxlength="255" size="100" />
     <br>

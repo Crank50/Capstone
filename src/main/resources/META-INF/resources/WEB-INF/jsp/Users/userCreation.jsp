@@ -27,7 +27,7 @@
 <c:out value="${user.userSince}" />
 <br>
 
-<form:form id="yes"   method="POST" action="/webUi/userPage" >
+<form:form id="yes"   method="POST" action="/user/saveNewUser" >
     <button type="submit" name="Yes"> Yes </button>
 </form:form>
 <form:form id="no"   method="POST" action="/user/createAccount" >

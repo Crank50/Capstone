@@ -36,7 +36,7 @@ public class UserController {
         userDao.save(user);
         modelMap.addAttribute("user", user);
 
-        return "/Users/userCreation";
+        return "/webUi/userPage";
     }
     @RequestMapping(value="/adminPage")
     public String adminPage() {
