@@ -50,6 +50,12 @@ public class UserController {
 
         return "/Users/userCreation";
     }
+    @RequestMapping(value="/adminPage")
+    public String adminPage() {
+
+
+        return "/Users/adminPage";
+    }
 //    private void addUploadToDatabase(String filePath) {
 //        try {
 //            Path newUserUploadedFilePath = Paths.get(filePath);
