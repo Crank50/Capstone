@@ -8,7 +8,6 @@
 </head>
 <body>
 <h1>User Creation</h1>
-<form:form id="userConfirmationForm" commandName="user" modelAttribute="user" method="POST" action="/user/userCreation" >
 
 <c:if test="${user.admin== 'admin'}">
      admin privileges granted
