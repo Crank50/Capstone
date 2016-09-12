@@ -18,6 +18,8 @@ public class User {
     private STATES states;
 
     String name;
+    String userName;
+    String password;
     String email;
     String city;
     String zip;
@@ -40,6 +42,22 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getEmail() {

@@ -15,6 +15,15 @@
 <form:input path="name" id="name"  placeholder="Jane Doe" maxlength="255" size="100" />
     <br>
     <br>
+    <form:label path="userName" >UserName: </form:label>
+<form:input path="userName" id="userName"  placeholder="Desired UserName" maxlength="255" size="100" />
+    <br>
+    <br>
+
+    <form:label path="password" >Password: </form:label>
+<form:input path="password" id="password"  placeholder="Enter Password" maxlength="255" size="100" />
+    <br>
+    <br>
 
     <form:label path="states">State:</form:label>
     <form:select path="states" id="states">
