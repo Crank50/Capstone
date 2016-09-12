@@ -26,7 +26,7 @@ public class UserController {
     @RequestMapping(value ="/createAccount")
     public String crtAcnnt(ModelMap modelMap) {
         modelMap.addAttribute("user", new User());
-        return "/Users/createAccount";}
+        return "/Users/userCreation";}
 
 
 
@@ -34,7 +34,6 @@ public class UserController {
 
     @RequestMapping(value="/saveNewUser")
     public String saveNewUser(User user,ModelMap modelMap) {
-
         userDao.save(user);
         modelMap.addAttribute("user", user);
 
