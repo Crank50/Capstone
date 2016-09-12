@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="499b5121-b871-4418-a9be-c35093c68c9b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java" afterPath="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
     </list>
     <ignored path="Cap$tone WABEDI? ~~ Would Abe Do It?.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,16 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2856#2857#0" expanded="true" />
-                <element signature="e#2883#2884#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="345">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,11 +89,11 @@
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/PasswordValidator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/Admin.java" />
-        <option value="$PROJECT_DIR$/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/createAccount.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/userCreation.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java" />
+        <option value="$PROJECT_DIR$/application.properties" />
       </list>
     </option>
   </component>
@@ -913,12 +909,12 @@
       <workItem from="1472781415618" duration="33309000" />
       <workItem from="1473350533224" duration="18008000" />
       <workItem from="1473694052032" duration="1944000" />
-      <workItem from="1473698105523" duration="13670000" />
+      <workItem from="1473698105523" duration="13764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75507000" />
+    <option name="totallyTimeSpent" value="75601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="84" width="1276" height="777" extended-state="0" />
@@ -1371,14 +1367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/DefaultController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1471,13 +1459,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2856#2857#0" expanded="true" />
-            <element signature="e#2883#2884#0" expanded="true" />
+            <marker date="1473715372000" expanded="true" signature="41:133" ph="..." />
+            <marker date="1473715372000" expanded="true" signature="135:174" ph="/**...*/" />
+            <marker date="1473715372000" expanded="true" signature="175:205" ph="@{...}" />
+            <marker date="1473715372000" expanded="true" signature="230:285" ph="@{...}" />
+            <marker date="1473715372000" expanded="true" signature="338:861" ph="{...}" />
+            <marker date="1473715372000" expanded="false" signature="1207:1218" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="1228:1234" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="1266:1277" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="1290:1296" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="1325:1336" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="1348:1354" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="1392:1403" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="1420:1426" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="1459:1470" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="1486:1492" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="1538:1549" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="1574:1580" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="1613:1624" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="1640:1646" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="1692:1703" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="1728:1734" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="1764:1775" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="1788:1794" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="1834:1845" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="1864:1870" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="1901:1912" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="1926:1932" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="1974:1985" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="2006:2012" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="2041:2052" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="2064:2070" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="2108:2119" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="2136:2142" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="2170:2181" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="2192:2198" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="2234:2245" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="2260:2266" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="2296:2307" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="2320:2326" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="2366:2377" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="2396:2402" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="2430:2441" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="2452:2458" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="2494:2505" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="2520:2526" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="2562:2573" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="2590:2596" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="2646:2657" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="2684:2690" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="2720:2731" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="2744:2750" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="2790:2801" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="2820:2826" ph=" }" />
+            <marker date="1473715372000" expanded="true" signature="2855:2866" ph=" { " />
+            <marker date="1473715372000" expanded="true" signature="2878:2884" ph=" }" />
+            <marker date="1473715372000" expanded="false" signature="2923:2934" ph=" { " />
+            <marker date="1473715372000" expanded="false" signature="2951:2957" ph=" }" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
