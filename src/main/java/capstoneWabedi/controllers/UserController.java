@@ -42,7 +42,7 @@ public class UserController {
         userDao.save(user);
         modelMap.addAttribute("user", user);
 
-        return "/webUi/userPage";
+        return "/WebUi/userPage";
     }
     @RequestMapping(value="/adminPage")
     public String adminPage() {
