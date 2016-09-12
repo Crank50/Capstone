@@ -27,5 +27,6 @@
     <br>
 </tr>
 </c:forEach>
+<a href="/webUi/userPage"> Home </a>
 </body>
 </html>
