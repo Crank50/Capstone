@@ -6,8 +6,8 @@
 
 </head>
 <body>
-<h1></h1>
-<c:forEach var="user" items="${user}">
+<h1>View All Users</h1>
+<c:forEach var="users" items="${user}">
 <tr>
         <c:out value="${user.id}" />
     <br>
