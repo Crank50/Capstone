@@ -25,6 +25,7 @@
     <br>
         <c:out value="${user.userSince}" />
     <br>
-
+</tr>
+</c:forEach>
 </body>
 </html>

@@ -13,7 +13,8 @@
 
 <th><a href="/webUi/userPage">Login</a></th>
 <th>  |  </th>
-<th><a href="/user/createAccount">Create Account</a></tr>
+<th><a href="/user/createAccount">Create Account</a>
+<th><a href="/Users/adminPage">Create Account</a>
     </tr>
     </table>
 
