@@ -24,6 +24,8 @@
     <br>
         <c:out value="${user.email}"/>
     <br>
+        <c:out value="${user.states}"/>
+    <br>
         <c:out value="${user.city}" />
     <br>
         <c:out value="${user.zip}" />

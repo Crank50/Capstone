@@ -32,7 +32,7 @@
     <br>
 
     <form:label path="states">State:</form:label>
-    <form:select path="states" id="states"><form:button  items="${STATES}" />
+    <form:select path="state" id="states"><form:radiobuttons path="states" id="states" items="${STATES}" />
     </form:select>
     <br>
     <br>
