@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="499b5121-b871-4418-a9be-c35093c68c9b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/userCreation.jsp" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/userCreation.jsp" />
     </list>
     <ignored path="Cap$tone WABEDI? ~~ Would Abe Do It?.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,14 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java">
+      <file leaf-file-name="userCreation.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/userCreation.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="495">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,9 +91,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/createAccount.jsp" />
         <option value="$PROJECT_DIR$/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/userPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/userCreation.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/userCreation.jsp" />
       </list>
     </option>
   </component>
@@ -881,12 +879,12 @@
       <workItem from="1472781415618" duration="33309000" />
       <workItem from="1473350533224" duration="18008000" />
       <workItem from="1473694052032" duration="1944000" />
-      <workItem from="1473698105523" duration="19653000" />
+      <workItem from="1473698105523" duration="19958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81490000" />
+    <option name="totallyTimeSpent" value="81795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="91" width="1276" height="777" extended-state="0" />
@@ -934,7 +932,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -955,14 +953,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <marker date="1473781987000" expanded="true" signature="211:1198" ph="..." />
-            <marker date="1473781987000" expanded="true" signature="218:256" ph="..." />
-            <marker date="1473781987000" expanded="true" signature="263:1190" ph="..." />
-            <marker date="1473781987000" expanded="true" signature="439:968" ph="..." />
-            <marker date="1473781987000" expanded="true" signature="483:521" ph="..." />
-            <marker date="1473781987000" expanded="true" signature="1033:1180" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1192,18 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/voteBill.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <marker date="1472760410000" expanded="true" signature="136:207" ph="..." />
-            <marker date="1472760410000" expanded="true" signature="143:173" ph="..." />
-            <marker date="1472760410000" expanded="true" signature="180:199" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cap$tone_WABEDI?.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1420,55 +1399,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/userPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <marker date="1473717116000" expanded="true" signature="136:462" ph="..." />
-            <marker date="1473717116000" expanded="true" signature="143:178" ph="..." />
-            <marker date="1473717116000" expanded="true" signature="185:454" ph="..." />
-            <marker date="1473717116000" expanded="true" signature="230:445" ph="..." />
-            <marker date="1473717116000" expanded="true" signature="239:432" ph="..." />
-            <marker date="1473717116000" expanded="true" signature="386:427" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/createAccount.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="71" column="28" selection-start-line="71" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding>
-            <marker date="1473715927000" expanded="true" signature="283:2569" ph="..." />
-            <marker date="1473715927000" expanded="true" signature="290:415" ph="..." />
-            <marker date="1473715927000" expanded="true" signature="422:2561" ph="..." />
-            <marker date="1473715927000" expanded="true" signature="554:2552" ph="..." />
-            <marker date="1473715927000" expanded="true" signature="1371:1424" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/userCreation.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-          <folding>
-            <marker date="1473781987000" expanded="true" signature="211:1198" ph="..." />
-            <marker date="1473781987000" expanded="true" signature="218:256" ph="..." />
-            <marker date="1473781987000" expanded="true" signature="263:1190" ph="..." />
-            <marker date="1473781987000" expanded="true" signature="439:968" ph="..." />
-            <marker date="1473781987000" expanded="true" signature="483:521" ph="..." />
-            <marker date="1473781987000" expanded="true" signature="1033:1180" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1491,8 +1426,65 @@
         <state relative-caret-position="435">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1473782826000" expanded="true" signature="44:369" ph="..." />
+            <marker date="1473782826000" expanded="true" signature="371:410" ph="/**...*/" />
+            <marker date="1473782826000" expanded="true" signature="411:453" ph="@{...}" />
+            <marker date="1473782826000" expanded="true" signature="579:680" ph="{...}" />
+            <marker date="1473782826000" expanded="true" signature="773:865" ph="{...}" />
+            <marker date="1473782826000" expanded="true" signature="966:1051" ph="{...}" />
+            <marker date="1473782826000" expanded="true" signature="1155:1270" ph="{...}" />
+            <marker date="1473782826000" expanded="true" signature="1341:1385" ph="{...}" />
+            <marker date="1473782826000" expanded="true" signature="1386:2508" ph="//..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/userPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <marker date="1473717116000" expanded="true" signature="136:462" ph="..." />
+            <marker date="1473717116000" expanded="true" signature="143:178" ph="..." />
+            <marker date="1473717116000" expanded="true" signature="185:454" ph="..." />
+            <marker date="1473717116000" expanded="true" signature="230:445" ph="..." />
+            <marker date="1473717116000" expanded="true" signature="239:432" ph="..." />
+            <marker date="1473717116000" expanded="true" signature="386:427" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/voteBill.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <marker date="1472760410000" expanded="true" signature="136:207" ph="..." />
+            <marker date="1472760410000" expanded="true" signature="143:173" ph="..." />
+            <marker date="1472760410000" expanded="true" signature="180:199" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/createAccount.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="72" column="20" selection-start-line="72" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <marker date="1473715927000" expanded="true" signature="283:2569" ph="..." />
+            <marker date="1473715927000" expanded="true" signature="290:415" ph="..." />
+            <marker date="1473715927000" expanded="true" signature="422:2561" ph="..." />
+            <marker date="1473715927000" expanded="true" signature="554:2552" ph="..." />
+            <marker date="1473715927000" expanded="true" signature="1371:1424" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/userCreation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

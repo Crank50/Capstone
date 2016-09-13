@@ -31,7 +31,7 @@
 <br>
 
     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
-    <button type="submit" name="Yes"> Yes </button>
+    <input name="Yes" type="submit">
 </form:form>
 <form:form id="no"   method="POST" action="/user/createAccount" >
 
