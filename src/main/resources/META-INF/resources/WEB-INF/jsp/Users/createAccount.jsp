@@ -32,8 +32,8 @@
     <br>
 
     <form:label path="states">State:</form:label>
-    <form:button path="states" id="states"><form:options  items="${STATES}" />
-    </form:button>
+    <form:select path="states" id="states"><form:button  items="${STATES}" />
+    </form:select>
     <br>
     <br>
 
