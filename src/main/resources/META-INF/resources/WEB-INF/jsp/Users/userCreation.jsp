@@ -26,7 +26,7 @@
     <form:input path="matchingPassword" id="matchingPassword"  placeholder="Confirm Password" maxlength="255" size="100" />
     <br>
     <br>
-    <form:select path="states" id="states"><form:options items="${STATES}" />
+    <form:input path="states" id="states"  maxlength="255" size="100" />
     <br>
     <br>
 
