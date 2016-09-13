@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="adminPage.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp">
+      <file leaf-file-name="userCreation.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/userCreation.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="360">
+              <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -93,8 +93,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/userPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/createAccount.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/userCreation.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/userCreation.jsp" />
       </list>
     </option>
   </component>
@@ -880,12 +880,12 @@
       <workItem from="1472781415618" duration="33309000" />
       <workItem from="1473350533224" duration="18008000" />
       <workItem from="1473694052032" duration="1944000" />
-      <workItem from="1473698105523" duration="22046000" />
+      <workItem from="1473698105523" duration="22243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83883000" />
+    <option name="totallyTimeSpent" value="84080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="91" width="1276" height="777" extended-state="0" />
@@ -933,7 +933,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -954,14 +954,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <marker date="1473785189000" expanded="true" signature="211:2240" ph="..." />
-            <marker date="1473785189000" expanded="true" signature="218:256" ph="..." />
-            <marker date="1473785189000" expanded="true" signature="263:2232" ph="..." />
-            <marker date="1473785189000" expanded="true" signature="439:2010" ph="..." />
-            <marker date="1473785189000" expanded="true" signature="483:521" ph="..." />
-            <marker date="1473785189000" expanded="true" signature="2075:2222" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1474,25 +1467,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/userCreation.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
-            <marker date="1473785189000" expanded="true" signature="211:2240" ph="..." />
-            <marker date="1473785189000" expanded="true" signature="218:256" ph="..." />
-            <marker date="1473785189000" expanded="true" signature="263:2232" ph="..." />
-            <marker date="1473785189000" expanded="true" signature="439:2010" ph="..." />
-            <marker date="1473785189000" expanded="true" signature="483:521" ph="..." />
-            <marker date="1473785189000" expanded="true" signature="2075:2222" ph="..." />
+            <marker date="1473785469000" expanded="true" signature="136:916" ph="..." />
+            <marker date="1473785469000" expanded="true" signature="143:173" ph="..." />
+            <marker date="1473785469000" expanded="true" signature="180:908" ph="..." />
+            <marker date="1473785469000" expanded="true" signature="244:863" ph="..." />
+            <marker date="1473785469000" expanded="true" signature="249:850" ph="..." />
+            <marker date="1473785469000" expanded="true" signature="337:382" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/userCreation.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="360">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
           <folding />
         </state>
       </provider>

@@ -53,7 +53,8 @@
     <br>
 
     <form:input path="admin" id="admin" placeholder="Requires Special Key" maxlength="255" size="100" />
-<br>
+    <br>
+    <br>
 
     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
     <input type="submit">

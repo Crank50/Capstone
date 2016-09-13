@@ -11,6 +11,11 @@
 <tr>
         <c:out value="${user.id}" />
     <br>
+    <c:if test="${user.admin== 'admin'}">
+        admin privileges granted
+    </c:if>
+    <br>
+    <br>
         <c:out value="${user.name}" />
     <br>
         <c:out value="${user.userName}" />
