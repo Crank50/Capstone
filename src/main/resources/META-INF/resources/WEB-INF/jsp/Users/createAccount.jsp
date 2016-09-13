@@ -31,9 +31,13 @@
     <br>
     <br>
 
+    <%--<form:label path="states">State:</form:label>--%>
+    <%--<form:select path="states" id="states"><form:options items="${STATES}" />--%>
+    <%--</form:select>--%>
+    <%--<br>--%>
+    <%--<br>--%>
     <form:label path="states">State:</form:label>
-    <form:select path="states" id="states"><form:radiobuttons path="state" id="states" items="${STATES}" />
-    </form:select>
+    <form:radiobuttons path="states" id="states" items="${STATES}" />
     <br>
     <br>
 
