@@ -34,9 +34,9 @@ public class UserController {
         return "/Users/userCreation";}
 
 
-
     @RequestMapping(value="/saveNewUser")
-    public String saveNewUser(User user,ModelMap modelMap) {
+    public String saveNewUser(User user,ModelMap modelMap, String name) {
+        System.out.println(name);
         userDao.save(user);
         modelMap.addAttribute("user", user);
 
