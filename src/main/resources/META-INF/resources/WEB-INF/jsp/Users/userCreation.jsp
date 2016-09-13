@@ -9,7 +9,7 @@
 <body>
 <h1>User Creation</h1>
 <p>Is this information correct?</p>
-<form:form id="userConfirmation"  modelAttribute="user2" commandName="user2" method="POST" action="/user/saveNewUser" >
+<form:form id="userConfirmation"  modelAttribute="user" commandName="user" method="POST" action="/user/saveNewUser" >
 
     <c:if test="${user.admin== 'admin'}">
      admin privileges granted
@@ -30,9 +30,12 @@
 <c:out value="${user.userSince}" />
 <br>
 
+    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
     <button type="submit" name="Yes"> Yes </button>
 </form:form>
 <form:form id="no"   method="POST" action="/user/createAccount" >
+
+    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
     <button type="submit" name="No"> No </button>
 
 </form:form>
