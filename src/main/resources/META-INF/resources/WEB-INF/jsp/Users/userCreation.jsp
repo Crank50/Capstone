@@ -16,19 +16,41 @@
 </c:if>
 <br>
     <%--<form:label path="name" > <c:out value="${user.name}" /> </form:label>--%>
-    <form:input path="name" id="name"  placeholder="Jane Doe" maxlength="255" size="100"  readonly="true"/>
+    <form:input path="name" id="name"  placeholder="Jane Doe" maxlength="255" size="100" />
 <br>
-<c:out value="${user.email}"/>
-<br>
-<c:out value="${user.city}" />
-<br>
-<c:out value="${user.zip}" />
-<br>
-<c:out value="${user.phone}" />
-<br>
-<c:out value="${user.ssn}" />
-<br>
-<c:out value="${user.userSince}" />
+    <form:input path="userName" id="userName"  placeholder="Desired UserName" maxlength="255" size="100" />
+    <br>
+    <br>
+    <form:input path="password" id="password"  placeholder="Enter Password" maxlength="255" size="100" />
+    <br>
+    <form:input path="matchingPassword" id="matchingPassword"  placeholder="Confirm Password" maxlength="255" size="100" />
+    <br>
+    <br>
+    <form:select path="states" id="states"><form:options items="${STATES}" />
+    <br>
+    <br>
+
+
+    <form:input path="city" id="city" placeholder="Salt Lake City" maxlength="255" size="100" />
+    <br>
+    <br>
+    <form:input path="zip" id="zip" placeholder="84009" maxlength="255" size="100" />
+    <br>
+    <br>
+
+    <form:input path="email" id="email"  placeholder="generic_email@gmail.com" maxlength="255" size="100" />
+    <br>
+    <br>
+
+    <form:input path="phone" id="phone"  placeholder="1112223333" maxlength="255" size="100"  />
+    <br>
+    <br>
+
+    <form:input path="ssn"  id="ssn"  placeholder="777119999" maxlength="255" size="100" />
+    <br>
+    <br>
+
+    <form:input path="admin" id="admin" placeholder="Requires Special Key" maxlength="255" size="100" />
 <br>
 
     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
