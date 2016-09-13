@@ -31,7 +31,7 @@
 <br>
 
     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
-    <input style="border-color: ThreeDLightShadow" name="Yes" type="submit">
+    <input type="submit">
 </form:form>
 <form:form id="no"   method="POST" action="/user/createAccount" >
 
