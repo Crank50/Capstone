@@ -8,7 +8,8 @@
 </head>
 <body>
 <h1>User Creation</h1>
-<form:form id="yes"  modelAttribute="user" commandName="user" method="POST" action="/user/saveNewUser" >
+<p>Is this information correct?</p>
+<form:form id="userConfirmation"  modelAttribute="user2" commandName="user2" method="POST" action="/user/saveNewUser" >
 
     <c:if test="${user.admin== 'admin'}">
      admin privileges granted
