@@ -36,8 +36,8 @@ public class UserController {
 
     @RequestMapping(value="/saveNewUser")
     public String saveNewUser(User user,ModelMap modelMap) {
+//        modelMap.addAttribute("user", user);
         userDao.save(user);
-        modelMap.addAttribute("user", user);
 
         return "/WebUi/userPage";
     }
