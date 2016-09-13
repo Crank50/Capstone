@@ -14,7 +14,7 @@
      admin privileges granted
 </c:if>
 <br>
-<c:out value="${user.name}" />
+<c:out  value="${user.name}" />
 <br>
 <c:out value="${user.email}"/>
 <br>
