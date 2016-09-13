@@ -32,8 +32,8 @@
     <br>
 
     <form:label path="states">State:</form:label>
-    <form:checkboxes path="states" id="states"><form:options  items="${STATES}" />
-    </form:checkboxes>
+    <form:button path="states" id="states"><form:options  items="${STATES}" />
+    </form:button>
     <br>
     <br>
 
