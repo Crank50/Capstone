@@ -37,7 +37,7 @@
     <%--<br>--%>
     <%--<br>--%>
     <form:label path="states">State:</form:label>
-    <form:radiobuttons path="states" id="states" items="${STATES}" />
+    <form:options path="states" id="states" items="${STATES}" />
     <br>
     <br>
 
