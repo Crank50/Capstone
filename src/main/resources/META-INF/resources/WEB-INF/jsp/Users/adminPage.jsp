@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>View All Users</h1>
-<c:forEach var="user2" items="${users}">
+<c:forEach var="user" items="${users}">
 <tr>
         <c:out value="${user.id}" />
     <br>
