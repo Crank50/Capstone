@@ -14,9 +14,6 @@ public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    public User(User user) {
-    }
-
     public static enum STATES { ALABAMA,ALASKA,AMERICAN_SAMOA,ARIZONA,ARKANSAS,CALIFORNIA,COLORADO,CONNECTICUT,DELAWARE,FLORIDA,GEORGIA,GUAM,HAWAII,IDAHO,ILLINOIS,INDIANA,IOWA,KANSAS,KENTUCKY,LOUSIANA,MAINE,MARYLAND,MASSACHUSETTS,MICHIGAN,MINNESOTA,MISSISSIPPI,MISSOURI,MONTANA,NEBRASKA,NEVADA,NEW_HAMPSHIRE,NEW_JERSEY,NEW_MEXICO,NEW_YORK,NORTH_CAROLINA,NORTH_DAKOTA,OHIO,OKLAHOMA,OREGON,PENNSYLVANIA,PUERTO_RICO,RHODE_ISLAND,SOUTH_CAROLINA,SOUTH_DAKOTA,TENNESSEE,TEXAS,US_VIRGIN_ISLANDS,UTAH,VERMONT,VIRGINA,WASHINGTON,WEST_VIRGINA,WISCONSIN,WYOMOING,}
 
     private STATES states;
@@ -35,6 +32,18 @@ public class User {
     private String ssn;
     private Calendar userSince;
     private String admin;
+
+    public User() {
+    }
+
+    public User(User user) {
+        this.id = user.id;
+        this.userName = user.userName;
+        this.email = user.email;
+        this.password = user.password;
+        this.enabled=user.enabled;
+    }
+
 
     public long getId() {
         return id;
