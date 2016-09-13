@@ -12,5 +12,5 @@ import java.util.List;
 public interface UserRolesDAO extends CrudRepository<UserRole, Long>{
 
 //    @Query("select a.role from UserRole a, User b where b.userName=?1 and a.userid=b.userId")
-//    public List<String> findRoleByUserName(String username);
+    public List<String> findRoleByUserName(String username);
 }
