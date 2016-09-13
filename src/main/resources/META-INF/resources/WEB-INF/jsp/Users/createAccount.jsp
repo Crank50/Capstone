@@ -31,15 +31,12 @@
     <br>
     <br>
 
-    <%--<form:label path="states">State:</form:label>--%>
-    <%--<form:select path="states" id="states"><form:options items="${STATES}" />--%>
-    <%--</form:select>--%>
-    <%--<br>--%>
-    <%--<br>--%>
     <form:label path="states">State:</form:label>
-    <form:options path="states" id="states" items="${STATES}" />
+    <form:select path="states" id="states"><form:options items="${STATES}" />
+    </form:select>
     <br>
     <br>
+
 
 
     <form:label path="city" >City: </form:label>
