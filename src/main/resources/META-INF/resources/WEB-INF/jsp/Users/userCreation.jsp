@@ -15,7 +15,8 @@
      admin privileges granted
 </c:if>
 <br>
-<form:label path="name"> <c:out value="${user.name}" /> </form:label>
+    <form:label path="name" > <c:out value="${user.name}" /> </form:label>
+    <form:input path="name" id="name"  placeholder="Jane Doe" maxlength="255" size="100"  readonly="true"/>
 <br>
 <c:out value="${user.email}"/>
 <br>

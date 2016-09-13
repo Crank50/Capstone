@@ -54,7 +54,7 @@
     <br>
 
     <form:label path="phone" >Phone: </form:label>
-<form:input path="phone" id="phone"  placeholder="1112223333" maxlength="255" size="100" />
+<form:input path="phone" id="phone"  placeholder="1112223333" maxlength="255" size="100"  />
     <br>
     <br>
 
