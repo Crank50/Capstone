@@ -13,6 +13,10 @@
     <br>
         <c:out value="${user.name}" />
     <br>
+        <c:out value="${user.userName}" />
+    <br>
+        <c:out value="${user.password}" />
+    <br>
         <c:out value="${user.email}"/>
     <br>
         <c:out value="${user.city}" />

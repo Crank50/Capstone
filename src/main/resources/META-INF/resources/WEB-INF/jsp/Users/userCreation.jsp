@@ -17,11 +17,13 @@
 <br>
     <%--<form:label path="name" > <c:out value="${user.name}" /> </form:label>--%>
     <form:input path="name" id="name"  placeholder="Jane Doe" maxlength="255" size="100" />
-<br>
+    <br>
+    <br>
     <form:input path="userName" id="userName"  placeholder="Desired UserName" maxlength="255" size="100" />
     <br>
     <br>
     <form:input path="password" id="password"  placeholder="Enter Password" maxlength="255" size="100" />
+    <br>
     <br>
     <form:input path="matchingPassword" id="matchingPassword"  placeholder="Confirm Password" maxlength="255" size="100" />
     <br>
