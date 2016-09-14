@@ -2,7 +2,9 @@ package capstoneWabedi.controllers;
 
 import capstoneWabedi.entities.User;
 import capstoneWabedi.entities.UserDao;
+import capstoneWabedi.entities.UserRolesDAO;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.util.Assert;
@@ -14,17 +16,22 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping(value="/user")
 public class UserController {
-
+    private final PasswordEncoder passwordEncoder;
     private final UserDao userDao;
+    private final UserRolesDAO userRolesDAO;
 
     @Autowired
-    public UserController(UserDao userDao) {
+    public UserController(UserDao userDao, UserRolesDAO userRolesDAO, PasswordEncoder passwordEncoder) {
         Assert.notNull(userDao, "UserDao must not be null!");
+        Assert.notNull(userRolesDAO, "UserDao must not be null!");
+        Assert.notNull(passwordEncoder, "UserDao must not be null!");
         this.userDao = userDao;
+        this.userRolesDAO = userRolesDAO;
+        this.passwordEncoder = passwordEncoder;
     }
 
     @RequestMapping(value ="/createAccount")
-    public String crtAcnnt(ModelMap modelMap) {
+    public String crtAcnnt(ModelMap modelMap, String name, String userName, String password,String admin) {
         modelMap.addAttribute("user", new User());
         return "/Users/createAccount";}
 
@@ -35,8 +42,14 @@ public class UserController {
 
 
     @RequestMapping(value="/saveNewUser")
-    public String saveNewUser(User user,ModelMap modelMap) {
+    public String saveNewUser(User user,ModelMap modelMap, String name, String userName, String password,String admin) {
         modelMap.addAttribute("user", user);
+        User account = new User();
+        user.setUserId(user.getUserId());
+        user.setName(name);
+        user.setUserName(userName);
+        user.setPassword(password);
+        user.setAdmin(admin);
         userDao.save(user);
 
         return "/WebUi/userPage";
