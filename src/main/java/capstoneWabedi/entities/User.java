@@ -10,7 +10,7 @@ import java.util.Calendar;
  * Created by Justin on 9/1/16.
  */
 @Entity
-@Table(name = "users")
+@Table(name = "userzz")
 public class User implements Serializable {
 
         private static final long serialVersionUID = 1L;
