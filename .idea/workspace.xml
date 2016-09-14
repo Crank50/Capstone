@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="499b5121-b871-4418-a9be-c35093c68c9b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/userPage.jsp" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/userPage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/capstoneWabedi/WebSecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/capstoneWabedi/WebSecurityConfig.java" />
     </list>
     <ignored path="Cap$tone WABEDI? ~~ Would Abe Do It?.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,12 +25,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="userPage.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/userPage.jsp">
+      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="354">
+              <caret line="29" column="177" selection-start-line="29" selection-start-column="177" selection-end-line="29" selection-end-column="177" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,7 +94,6 @@
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/CustomerUserDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/CustomerUserDetailsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/security/CustomerUserDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRole.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login.jsp" />
@@ -100,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRolesDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/userPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/WebSecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -945,12 +947,12 @@
       <workItem from="1472781415618" duration="33309000" />
       <workItem from="1473350533224" duration="18008000" />
       <workItem from="1473694052032" duration="1944000" />
-      <workItem from="1473698105523" duration="36189000" />
+      <workItem from="1473698105523" duration="36291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98026000" />
+    <option name="totallyTimeSpent" value="98128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-23" y="25" width="1276" height="777" extended-state="0" />
@@ -1035,11 +1037,7 @@
         <state relative-caret-position="285">
           <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
-            <marker date="1473801739000" expanded="true" signature="31:796" ph="..." />
-            <marker date="1473801739000" expanded="true" signature="799:832" ph="@{...}" />
-            <marker date="1473801739000" expanded="true" signature="1075:1170" ph="{...}" />
-            <marker date="1473801739000" expanded="true" signature="1251:1724" ph="{...}" />
-            <marker date="1473801739000" expanded="true" signature="1804:1856" ph="{...}" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1389,20 +1387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding>
-            <marker date="1473801739000" expanded="true" signature="31:796" ph="..." />
-            <marker date="1473801739000" expanded="true" signature="799:832" ph="@{...}" />
-            <marker date="1473801739000" expanded="true" signature="1075:1170" ph="{...}" />
-            <marker date="1473801739000" expanded="true" signature="1251:1724" ph="{...}" />
-            <marker date="1473801739000" expanded="true" signature="1804:1856" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1640,7 +1624,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
+          <folding>
+            <marker date="1473867519000" expanded="true" signature="136:452" ph="..." />
+            <marker date="1473867519000" expanded="true" signature="143:178" ph="..." />
+            <marker date="1473867519000" expanded="true" signature="185:444" ph="..." />
+            <marker date="1473867519000" expanded="true" signature="230:435" ph="..." />
+            <marker date="1473867519000" expanded="true" signature="239:422" ph="..." />
+            <marker date="1473867519000" expanded="true" signature="376:417" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="29" column="177" selection-start-line="29" selection-start-column="177" selection-end-line="29" selection-end-column="177" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
