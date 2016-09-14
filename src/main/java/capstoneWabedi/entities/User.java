@@ -2,14 +2,18 @@ package capstoneWabedi.entities;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import java.io.Serializable;
+import java.security.Timestamp;
 import java.util.Calendar;
 
 /**
  * Created by Justin on 9/1/16.
  */
 @Entity
-@Table(name = "userz")
-public class User {
+@Table(name = "users")
+public class User implements Serializable {
+
+        private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "userId")
@@ -27,12 +31,23 @@ public class User {
 
     private int enabled;
     private String email;
+    private boolean emailVerified;
     private String city;
     private String zip;
     private String phone;
     private String ssn;
     private Calendar userSince;
     private String admin;
+
+    @NotNull
+    @Column(nullable = false)
+    private long accountId;
+
+    @NotNull
+    @Column(nullable = false)
+    private Timestamp created;
+
+    private Timestamp deactivated;
 
     public User() {
     }
@@ -43,8 +58,49 @@ public class User {
         this.email = user.email;
         this.password = user.password;
         this.enabled = user.enabled;
+        this.emailVerified = user.emailVerified;
+        this.accountId = user.accountId;
+        this.created = user.created;
+        this.deactivated = user.deactivated;
+
     }
 
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
+    public boolean isEmailVerified() {
+        return emailVerified;
+    }
+
+    public void setEmailVerified(boolean emailVerified) {
+        this.emailVerified = emailVerified;
+    }
+
+    public long getAccountId() {
+        return accountId;
+    }
+
+    public void setAccountId(long accountId) {
+        this.accountId = accountId;
+    }
+
+    public Timestamp getCreated() {
+        return created;
+    }
+
+    public void setCreated(Timestamp created) {
+        this.created = created;
+    }
+
+    public Timestamp getDeactivated() {
+        return deactivated;
+    }
+
+    public void setDeactivated(Timestamp deactivated) {
+        this.deactivated = deactivated;
+    }
 
     public long getUserId() {
         return userId;
