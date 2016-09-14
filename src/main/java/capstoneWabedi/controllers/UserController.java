@@ -9,6 +9,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.util.Assert;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.security.Timestamp;
@@ -42,6 +43,11 @@ public class UserController {
     public String svAcnnt(ModelMap modelMap,User user) {
         modelMap.addAttribute("user", user);
         return "/Users/userCreation";}
+
+    public void initApplicationException(Throwable ex){
+
+        throw  IllegalStateException ex;
+    }
 
 
     @RequestMapping(value="/saveNewUser")
