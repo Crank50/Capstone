@@ -43,11 +43,7 @@ public class UserController {
     public String svAcnnt(ModelMap modelMap,User user) {
         modelMap.addAttribute("user", user);
         return "/Users/userCreation";}
-
-    public void initApplicationException(Throwable ex){
-
-        throw  IllegalStateException ex;
-    }
+    
 
 
     @RequestMapping(value="/saveNewUser")
