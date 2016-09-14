@@ -9,7 +9,7 @@
 <h1>View All Users</h1>
 <c:forEach var="user" items="${users}">
 <tr>
-        <c:out value="${user.id}" />
+        <c:out value="${user.userId}" />
     <br>
     <c:if test="${user.admin== 'admin'}">
         admin privileges granted
