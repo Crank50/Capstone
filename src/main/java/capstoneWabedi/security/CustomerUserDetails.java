@@ -1,5 +1,6 @@
-package capstoneWabedi.entities;
+package capstoneWabedi.security;
 
+import capstoneWabedi.entities.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;

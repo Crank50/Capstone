@@ -1,5 +1,8 @@
-package capstoneWabedi.entities;
+package capstoneWabedi.security;
 
+import capstoneWabedi.entities.User;
+import capstoneWabedi.entities.UserDao;
+import capstoneWabedi.entities.UserRolesDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
