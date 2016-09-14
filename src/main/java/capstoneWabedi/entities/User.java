@@ -41,7 +41,7 @@ public class User {
         this.userName = user.userName;
         this.email = user.email;
         this.password = user.password;
-        this.enabled=user.enabled;
+        this.enabled = user.enabled;
     }
 
 
