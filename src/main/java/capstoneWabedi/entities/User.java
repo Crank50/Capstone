@@ -3,7 +3,7 @@ package capstoneWabedi.entities;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
-import java.security.Timestamp;
+import java.sql.Timestamp;
 import java.util.Calendar;
 
 /**

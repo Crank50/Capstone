@@ -2,6 +2,7 @@ package capstoneWabedi.controllers;
 
 import capstoneWabedi.entities.User;
 import capstoneWabedi.entities.UserDao;
+import capstoneWabedi.entities.UserRole;
 import capstoneWabedi.entities.UserRolesDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -9,6 +10,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.util.Assert;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import java.security.Timestamp;
 
 /**
  * Created by Justin on 9/1/16.
@@ -45,12 +48,14 @@ public class UserController {
     public String saveNewUser(User user,ModelMap modelMap, String name, String userName, String password,String admin) {
         modelMap.addAttribute("user", user);
         User account = new User();
-        user.setUserId(user.getUserId());
-        user.setName(name);
-        user.setUserName(userName);
-        user.setPassword(password);
-        user.setAdmin(admin);
+        account.setUserId(user.getUserId());
+        account.setName(name);
+        account.setUserName(userName);
+        account.setPassword(password);
+        account.setAdmin(admin);
+        account.setCreated(new java.sql.Timestamp(System.currentTimeMillis()));
         userDao.save(user);
+
 
         return "/WebUi/userPage";
     }
