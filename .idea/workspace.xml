@@ -28,8 +28,8 @@
       <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="29" column="177" selection-start-line="29" selection-start-column="177" selection-end-line="29" selection-end-column="177" />
+            <state relative-caret-position="384">
+              <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -947,12 +947,12 @@
       <workItem from="1472781415618" duration="33309000" />
       <workItem from="1473350533224" duration="18008000" />
       <workItem from="1473694052032" duration="1944000" />
-      <workItem from="1473698105523" duration="36291000" />
+      <workItem from="1473698105523" duration="36504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98128000" />
+    <option name="totallyTimeSpent" value="98341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-23" y="25" width="1276" height="777" extended-state="0" />
@@ -1452,21 +1452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <marker date="1473789882000" expanded="true" signature="136:965" ph="..." />
-            <marker date="1473789882000" expanded="true" signature="143:173" ph="..." />
-            <marker date="1473789882000" expanded="true" signature="180:957" ph="..." />
-            <marker date="1473789882000" expanded="true" signature="244:912" ph="..." />
-            <marker date="1473789882000" expanded="true" signature="249:899" ph="..." />
-            <marker date="1473789882000" expanded="true" signature="337:382" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1635,10 +1620,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <marker date="1473789882000" expanded="true" signature="136:965" ph="..." />
+            <marker date="1473789882000" expanded="true" signature="143:173" ph="..." />
+            <marker date="1473789882000" expanded="true" signature="180:957" ph="..." />
+            <marker date="1473789882000" expanded="true" signature="244:912" ph="..." />
+            <marker date="1473789882000" expanded="true" signature="249:899" ph="..." />
+            <marker date="1473789882000" expanded="true" signature="337:382" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="29" column="177" selection-start-line="29" selection-start-column="177" selection-end-line="29" selection-end-column="177" />
+        <state relative-caret-position="384">
+          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
