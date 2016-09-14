@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * Created by Justin on 9/13/16.
  */
-@Service("customUserDetailsSerice")
+@Service("customUserDetailsService")
 public class CustomerUserDetailsService implements UserDetailsService {
 
     private final UserDao userDao;
