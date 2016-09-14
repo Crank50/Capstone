@@ -4,7 +4,6 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.sql.Timestamp;
-import java.util.Calendar;
 
 /**
  * Created by Justin on 9/1/16.
@@ -37,7 +36,6 @@ public class User implements Serializable {
     private String zip;
     private String phone;
     private String ssn;
-    private Calendar userSince;
     private String admin;
 
     @NotNull
@@ -197,14 +195,6 @@ public class User implements Serializable {
 
     public void setSsn(String ssn) {
         this.ssn = ssn;
-    }
-
-    public Calendar getUserSince() {
-        return userSince;
-    }
-
-    public void setUserSince(Calendar userSince) {
-        this.userSince = userSince;
     }
 
     public String getAdmin() {
