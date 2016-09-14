@@ -9,18 +9,26 @@
 <h1>View All Users</h1>
 <c:forEach var="user" items="${users}">
 <tr>
-        <c:out value="${user.userId}" />
+    <th>User Id
+    <c:out value="${user.userId}" />
+    </th>
     <br>
+    <th>Admin Privileges
     <c:if test="${user.admin== 'admin'}">
         admin privileges granted
     </c:if>
+    </th>
     <br>
     <br>
+    <th>Name of User
         <c:out value="${user.name}" />
+    </th>
     <br>
         <c:out value="${user.userName}" />
     <br>
+    <th>User Password
         <c:out value="${user.password}" />
+    </th>
     <br>
         <c:out value="${user.email}"/>
     <br>
