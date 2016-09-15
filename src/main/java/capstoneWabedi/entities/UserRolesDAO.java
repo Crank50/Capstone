@@ -11,7 +11,7 @@ import java.util.List;
  * Created by Justin on 9/13/16.
  */
 @Repository
-
+@Transactional (noRollbackFor = Exception.class)
 public interface UserRolesDAO extends CrudRepository<UserRole, Long>{
 
     @Query("select a.role from UserRole a, User b where b.userName=?1 and a.userId=b.userId")
