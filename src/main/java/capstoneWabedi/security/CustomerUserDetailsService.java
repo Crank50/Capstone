@@ -28,12 +28,12 @@ public class CustomerUserDetailsService implements UserDetailsService {
 
 
     @Override
-    public UserDetails loadUserByUsername(String userName) throws UsernameNotFoundException {
-        User user= userDao.findByUserName(userName);
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        User user= userDao.findByUserName(username);
         if(null == user){
-            throw new UsernameNotFoundException("No user present with username: "+userName);
+            throw new UsernameNotFoundException("No user present with username: "+username);
         }else{
-            List<String> userRoles= userRolesDAO.findRoleByUserName(userName);
+            List<String> userRoles= userRolesDAO.findRoleByUserName(username);
             return new CustomerUserDetails(user,userRoles);
         }
     }

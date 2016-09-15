@@ -24,7 +24,7 @@ public class User implements Serializable {
     private STATES states;
     private  String name;
 
-        @Column(name="userName")
+        @Column(name="username")
     private String userName;
     private String password;
     private String matchingPassword;
