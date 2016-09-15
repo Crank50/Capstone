@@ -43,7 +43,7 @@ public class UserController {
     public String svAcnnt(ModelMap modelMap,User user) {
         modelMap.addAttribute("user", user);
         return "/Users/userCreation";}
-    
+
 
 
     @RequestMapping(value="/saveNewUser")
