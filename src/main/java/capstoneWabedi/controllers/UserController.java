@@ -2,18 +2,14 @@ package capstoneWabedi.controllers;
 
 import capstoneWabedi.entities.User;
 import capstoneWabedi.entities.UserDao;
-import capstoneWabedi.entities.UserRole;
 import capstoneWabedi.entities.UserRolesDAO;
-import oracle.jvm.hotspot.jfr.StackTrace;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.util.Assert;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import java.security.Timestamp;
 
 
 
@@ -57,7 +53,6 @@ public class UserController {
             user.setPassword(passwordEncoder.encode(password));
         } else {
         return "Passwords must match" + "/createAccount";
-
         }
         user.setUserId(user.getUserId());
         user.setName(name);
