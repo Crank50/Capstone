@@ -14,6 +14,12 @@
     <c:if test="${user.admin== 'admin'}">
      admin privileges granted
 </c:if>
+    <br>
+    <br>
+    <c:if test="${user.password != user.matchingPassword}">
+        passwords must match
+</c:if>
+
 <br>
     <%--<form:label path="name" > <c:out value="${user.name}" /> </form:label>--%>
     <form:input path="name" id="name"  placeholder="Jane Doe" maxlength="255" size="100" />

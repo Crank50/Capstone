@@ -3,11 +3,14 @@ package capstoneWabedi.controllers;
 import capstoneWabedi.entities.User;
 import capstoneWabedi.entities.UserDao;
 import capstoneWabedi.entities.UserRolesDAO;
+import com.sun.xml.internal.ws.api.model.ExceptionType;
+import org.apache.jasper.tagplugins.jstl.core.Catch;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.util.Assert;
+import org.springframework.util.ExceptionTypeFilter;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
@@ -46,14 +49,8 @@ public class UserController {
 
 
     @RequestMapping(value="/saveNewUser")
-    public String saveNewUser(User user,ModelMap modelMap, String name, String userName, String password,String admin,String email,String matchingPassword) {
+    public String saveNewUser(User user,ModelMap modelMap, String name, String userName, String password,String admin,String email) {
         modelMap.addAttribute("user", user);
-        if(password.equals(matchingPassword)){
-            System.out.println(matchingPassword);
-            user.setPassword(passwordEncoder.encode(password));
-        } else {
-        return "Passwords must match" + "/createAccount";
-        }
         user.setUserId(user.getUserId());
         user.setName(name);
         user.setUserName(userName);
