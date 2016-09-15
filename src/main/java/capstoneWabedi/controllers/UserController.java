@@ -58,8 +58,7 @@ public class UserController {
         account.setPassword(password);
         account.setAdmin(admin);
         account.setCreated(new java.sql.Timestamp(System.currentTimeMillis()));
-       Thread.currentThread().getStackTrace();
-        System.out.println(Thread.currentThread().getStackTrace());
+
         userDao.save(user);
 
 
