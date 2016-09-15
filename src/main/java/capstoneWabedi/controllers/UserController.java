@@ -35,7 +35,7 @@ public class UserController {
     }
 
     @RequestMapping(value ="/createAccount")
-    public String crtAcnnt(ModelMap modelMap, String name, String userName, String password,String admin) {
+    public String crtAcnnt(ModelMap modelMap) {
         modelMap.addAttribute("user", new User());
         return "/Users/createAccount";}
 
@@ -50,7 +50,7 @@ public class UserController {
     public String saveNewUser(User user,ModelMap modelMap, String name, String userName, String password,String admin) {
         modelMap.addAttribute("user", user);
         User account = new User();
-        account.setUserId(user.getUserId());
+        account.setUserId(account.getUserId());
         account.setName(name);
         account.setUserName(userName);
         account.setPassword(password);

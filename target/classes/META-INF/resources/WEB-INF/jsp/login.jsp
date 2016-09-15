@@ -15,15 +15,15 @@
 </c:if>
 
 <form action="<c:url value='/login'/>" method="POST">
-    UserName:<br>
-    <input type="text" name="username"/>
+    <input type="text" name="username" autofocus required/>
     <br>
-    Password:<br>
-    <input type="password" name="password"/>
+    <input type="password" name="password" required/>
     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
     <br>
     <br>
     <input type="submit" value="Sign In"/>
 </form>
+<a href="/webUi/userPage"> Home </a>
+
 </body>
 </html>

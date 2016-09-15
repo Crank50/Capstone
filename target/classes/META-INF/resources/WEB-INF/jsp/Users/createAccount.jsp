@@ -1,8 +1,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <html>
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+
     <title>WWAD Create Account </title>
 
 </head>
@@ -10,18 +13,30 @@
 <h1>Create User</h1>
 
 
-<form:form id="userForm" commandName="user" modelAttribute="user" method="POST" action="/user/saveNewUser" >
+<form:form id="userForm" commandName="user" modelAttribute="user" method="POST" action="/user/userCreation" >
     <form:label path="name" >Name: </form:label>
 <form:input path="name" id="name"  placeholder="Jane Doe" maxlength="255" size="100" />
     <br>
     <br>
+    <form:label path="userName" >UserName: </form:label>
+<form:input path="userName" id="userName"  placeholder="Desired UserName" maxlength="255" size="100" />
+    <br>
+    <br>
+
+    <form:label path="password" >Password: </form:label>
+<form:input path="password" id="password"  placeholder="Enter Password" maxlength="255" size="100" />
+    <br>
+    <br>   <form:label path="matchingPassword" >Confirm Password: </form:label>
+<form:input path="matchingPassword" id="matchingPassword"  placeholder="Confirm Password" maxlength="255" size="100" />
+    <br>
+    <br>
 
     <form:label path="states">State:</form:label>
-    <form:select path="states" id="states">
-        <form:options items="${STATES}" />
+    <form:select path="states" id="states"><form:options items="${STATES}" />
     </form:select>
     <br>
     <br>
+
 
 
     <form:label path="city" >City: </form:label>
@@ -40,7 +55,7 @@
     <br>
 
     <form:label path="phone" >Phone: </form:label>
-<form:input path="phone" id="phone"  placeholder="1112223333" maxlength="255" size="100" />
+<form:input path="phone" id="phone"  placeholder="1112223333" maxlength="255" size="100"  />
     <br>
     <br>
 
