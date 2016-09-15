@@ -55,7 +55,7 @@ public class UserController {
         account.setUserId(account.getUserId());
         account.setName(name);
         account.setUserName(userName);
-        account.setPassword(password);
+        account.setPassword(passwordEncoder.encode(password));
         account.setAdmin(admin);
 //        account.setCreated(new java.sql.Timestamp(System.currentTimeMillis()));
 
