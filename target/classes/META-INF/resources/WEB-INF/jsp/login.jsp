@@ -7,6 +7,7 @@
 
 </head>
 <body>
+<h1>LOGIN </h1>
 <c:if test="${param.error != null}">
     <br><br><div style="color: red;">Invalid username and password.</div><br><br>
 </c:if>

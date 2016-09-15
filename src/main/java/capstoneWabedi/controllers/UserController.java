@@ -49,14 +49,15 @@ public class UserController {
 
 
     @RequestMapping(value="/saveNewUser")
-    public String saveNewUser(User user,ModelMap modelMap, String name, String userName, String password,String admin) {
+    public String saveNewUser(User user,ModelMap modelMap, String name, String userName, String password,String admin,String email) {
         modelMap.addAttribute("user", user);
-        User account = new User();
-        account.setUserId(account.getUserId());
-        account.setName(name);
-        account.setUserName(userName);
-        account.setPassword(passwordEncoder.encode(password));
-        account.setAdmin(admin);
+        user.setUserId(user.getUserId());
+        user.setName(name);
+        user.setUserName(userName);
+        user.setPassword(passwordEncoder.encode(password));
+        user.setEmail(email);
+        user.setEnabled(1);
+        user.setAdmin(admin);
 //        account.setCreated(new java.sql.Timestamp(System.currentTimeMillis()));
 
         userDao.save(user);

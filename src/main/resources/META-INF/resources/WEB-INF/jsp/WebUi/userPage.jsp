@@ -11,7 +11,7 @@
 <table>
     <tr>
 
-<th><a href="login">Login</a></th>
+<th><a href="/login">Login</a></th>
 <th>  |  </th>
 <th><a href="/user/createAccount">Create Account</a></th>
         <th>  |  </th>

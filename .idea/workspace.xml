@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="499b5121-b871-4418-a9be-c35093c68c9b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRole.java" afterPath="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRole.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRolesDAO.java" afterPath="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRolesDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/RFM---application.properties" afterPath="$PROJECT_DIR$/src/main/resources/RFM--application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Capstone-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/Capstone-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Capstone-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/Capstone-1.0-SNAPSHOT.jar.original" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/capstoneWabedi/entities/User.class" afterPath="$PROJECT_DIR$/target/classes/capstoneWabedi/entities/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/userPage.jsp" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/userPage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp" afterPath="$PROJECT_DIR$/target/classes/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/target/classes/META-INF/resources/WEB-INF/jsp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="Cap$tone WABEDI? ~~ Would Abe Do It?.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,14 +34,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserRolesDAO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRolesDAO.java">
+      <file leaf-file-name="userPage.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/userPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,20 +96,20 @@
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/CustomerUserDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/CustomerUserDetailsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/security/CustomerUserDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/userPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/Admin.java" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/AccountType.java" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/security/CustomerUserDetailsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRole.java" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRolesDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/userPage.jsp" />
       </list>
     </option>
   </component>
@@ -234,6 +240,90 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Capstone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Capstone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebUi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Capstone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Capstone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Users" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -866,16 +956,16 @@
       <workItem from="1473350533224" duration="18008000" />
       <workItem from="1473694052032" duration="1944000" />
       <workItem from="1473698105523" duration="40823000" />
-      <workItem from="1473875524250" duration="11297000" />
+      <workItem from="1473875524250" duration="12026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113957000" />
+    <option name="totallyTimeSpent" value="114686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="36" width="1276" height="777" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -889,7 +979,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.34014598" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32090762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32090762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -928,7 +1018,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/RFM---application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/RFM--application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
@@ -1081,32 +1171,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/voteBill.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/mainPage.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/userPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <marker date="1473867519000" expanded="true" signature="136:452" ph="..." />
-            <marker date="1473867519000" expanded="true" signature="143:178" ph="..." />
-            <marker date="1473867519000" expanded="true" signature="185:444" ph="..." />
-            <marker date="1473867519000" expanded="true" signature="230:435" ph="..." />
-            <marker date="1473867519000" expanded="true" signature="239:422" ph="..." />
-            <marker date="1473867519000" expanded="true" signature="376:417" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1146,66 +1214,6 @@
           <folding>
             <marker date="1473872087000" expanded="false" signature="41:157" ph="..." />
             <marker date="1473872087000" expanded="true" signature="159:198" ph="/**...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/SimpleErrorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <marker date="1472762778000" expanded="true" signature="44:607" ph="..." />
-            <marker date="1472762778000" expanded="true" signature="609:650" ph="@{...}" />
-            <marker date="1472762778000" expanded="true" signature="848:980" ph="{...}" />
-            <marker date="1472762778000" expanded="false" signature="1028:1039" ph=" { " />
-            <marker date="1472762778000" expanded="false" signature="1055:1061" ph=" }" />
-            <marker date="1472762778000" expanded="true" signature="1149:1449" ph="{...}" />
-            <marker date="1472762778000" expanded="true" signature="1517:1708" ph="{...}" />
-            <marker date="1472762778000" expanded="true" signature="1817:1999" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <marker date="1473701302000" expanded="true" signature="44:369" ph="..." />
-            <marker date="1473701302000" expanded="true" signature="371:410" ph="/**...*/" />
-            <marker date="1473701302000" expanded="true" signature="411:454" ph="@{...}" />
-            <marker date="1473701302000" expanded="true" signature="582:683" ph="{...}" />
-            <marker date="1473701302000" expanded="true" signature="763:901" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/DefaultController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <marker date="1473179714000" expanded="true" signature="44:465" ph="..." />
-            <marker date="1473179714000" expanded="true" signature="467:506" ph="/**...*/" />
-            <marker date="1473179714000" expanded="false" signature="612:623" ph=" { " />
-            <marker date="1473179714000" expanded="false" signature="647:653" ph=" }" />
-            <marker date="1473179714000" expanded="false" signature="717:728" ph=" { " />
-            <marker date="1473179714000" expanded="false" signature="743:749" ph=" }" />
-            <marker date="1473179714000" expanded="true" signature="871:1154" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/WebUiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1473269034000" expanded="true" signature="44:149" ph="..." />
-            <marker date="1473269034000" expanded="true" signature="151:190" ph="/**...*/" />
-            <marker date="1473269034000" expanded="true" signature="191:234" ph="@{...}" />
-            <marker date="1473269034000" expanded="true" signature="337:372" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1280,161 +1288,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/RFM---application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <marker date="1473972055000" expanded="true" signature="136:1077" ph="..." />
-            <marker date="1473972055000" expanded="true" signature="143:173" ph="..." />
-            <marker date="1473972055000" expanded="true" signature="180:1069" ph="..." />
-            <marker date="1473972055000" expanded="true" signature="244:1024" ph="..." />
-            <marker date="1473972055000" expanded="true" signature="249:1011" ph="..." />
-            <marker date="1473972055000" expanded="true" signature="258:313" ph="..." />
-            <marker date="1473972055000" expanded="true" signature="331:445" ph="..." />
-            <marker date="1473972055000" expanded="true" signature="390:435" ph="..." />
-            <marker date="1473972055000" expanded="true" signature="472:534" ph="..." />
-            <marker date="1473972055000" expanded="true" signature="552:614" ph="..." />
-            <marker date="1473972055000" expanded="true" signature="632:699" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1472760410000" expanded="false" signature="31:143" ph="..." />
-            <marker date="1472760410000" expanded="false" signature="238:249" ph=" { " />
-            <marker date="1472760410000" expanded="false" signature="296:302" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-          <folding>
-            <marker date="1473974128000" expanded="true" signature="44:622" ph="..." />
-            <marker date="1473974128000" expanded="true" signature="626:665" ph="/**...*/" />
-            <marker date="1473974128000" expanded="true" signature="666:708" ph="@{...}" />
-            <marker date="1473974128000" expanded="true" signature="989:1317" ph="{...}" />
-            <marker date="1473974128000" expanded="true" signature="1410:1502" ph="{...}" />
-            <marker date="1473974128000" expanded="true" signature="1603:1688" ph="{...}" />
-            <marker date="1473974128000" expanded="true" signature="1853:2301" ph="{...}" />
-            <marker date="1473974128000" expanded="true" signature="2372:2416" ph="{...}" />
-            <marker date="1473974128000" expanded="true" signature="2417:3539" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <marker date="1473970390000" expanded="true" signature="136:893" ph="..." />
-            <marker date="1473970390000" expanded="true" signature="143:244" ph="..." />
-            <marker date="1473970390000" expanded="true" signature="251:885" ph="..." />
-            <marker date="1473970390000" expanded="true" signature="304:394" ph="..." />
-            <marker date="1473970390000" expanded="true" signature="425:512" ph="..." />
-            <marker date="1473970390000" expanded="true" signature="567:839" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/security/CustomerUserDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <marker date="1473864296000" expanded="true" signature="41:360" ph="..." />
-            <marker date="1473864296000" expanded="true" signature="78:360" ph="..." />
-            <marker date="1473864296000" expanded="true" signature="362:402" ph="/**...*/" />
-            <marker date="1473864296000" expanded="true" signature="632:694" ph="{...}" />
-            <marker date="1473864296000" expanded="true" signature="778:939" ph="{...}" />
-            <marker date="1473864296000" expanded="true" signature="996:1067" ph="{...}" />
-            <marker date="1473864296000" expanded="false" signature="1121:1132" ph=" { " />
-            <marker date="1473864296000" expanded="false" signature="1144:1150" ph=" }" />
-            <marker date="1473864296000" expanded="false" signature="1210:1221" ph=" { " />
-            <marker date="1473864296000" expanded="false" signature="1233:1239" ph=" }" />
-            <marker date="1473864296000" expanded="false" signature="1284:1295" ph=" { " />
-            <marker date="1473864296000" expanded="false" signature="1307:1313" ph=" }" />
-            <marker date="1473864296000" expanded="false" signature="1361:1372" ph=" { " />
-            <marker date="1473864296000" expanded="false" signature="1399:1405" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/security/CustomerUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
-          <folding>
-            <marker date="1473972701000" expanded="false" signature="34:508" ph="..." />
-            <marker date="1473972701000" expanded="false" signature="41:508" ph="..." />
-            <marker date="1473972701000" expanded="true" signature="163:508" ph="..." />
-            <marker date="1473972701000" expanded="true" signature="510:550" ph="/**...*/" />
-            <marker date="1473972701000" expanded="true" signature="841:922" ph="{...}" />
-            <marker date="1473972701000" expanded="true" signature="1031:1374" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-          <folding>
-            <marker date="1473970453000" expanded="true" signature="31:796" ph="..." />
-            <marker date="1473970453000" expanded="true" signature="799:832" ph="@{...}" />
-            <marker date="1473970453000" expanded="true" signature="1075:1170" ph="{...}" />
-            <marker date="1473970453000" expanded="true" signature="1251:1733" ph="{...}" />
-            <marker date="1473970453000" expanded="false" signature="1813:1823" ph=" { " />
-            <marker date="1473970453000" expanded="false" signature="1858:1864" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <marker date="1473974799000" expanded="true" signature="63:103" ph="/**...*/" />
-            <marker date="1473974799000" expanded="true" signature="105:138" ph="@{...}" />
-            <marker date="1473974799000" expanded="true" signature="169:257" ph="@{...}" />
-            <marker date="1473974799000" expanded="false" signature="419:430" ph=" { " />
-            <marker date="1473974799000" expanded="false" signature="442:448" ph=" }" />
-            <marker date="1473974799000" expanded="false" signature="486:497" ph=" { " />
-            <marker date="1473974799000" expanded="false" signature="514:520" ph=" }" />
-            <marker date="1473974799000" expanded="true" signature="553:564" ph=" { " />
-            <marker date="1473974799000" expanded="true" signature="582:588" ph=" }" />
-            <marker date="1473974799000" expanded="true" signature="636:647" ph=" { " />
-            <marker date="1473974799000" expanded="true" signature="676:682" ph=" }" />
-            <marker date="1473974799000" expanded="true" signature="711:722" ph=" { " />
-            <marker date="1473974799000" expanded="true" signature="736:742" ph=" }" />
-            <marker date="1473974799000" expanded="true" signature="782:793" ph=" { " />
-            <marker date="1473974799000" expanded="true" signature="814:820" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1532,11 +1390,242 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRolesDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
+        <state relative-caret-position="165">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1473974799000" expanded="true" signature="41:285" ph="..." />
+            <marker date="1473974799000" expanded="true" signature="287:327" ph="/**...*/" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <marker date="1473974799000" expanded="true" signature="63:103" ph="/**...*/" />
+            <marker date="1473974799000" expanded="true" signature="105:138" ph="@{...}" />
+            <marker date="1473974799000" expanded="true" signature="169:257" ph="@{...}" />
+            <marker date="1473974799000" expanded="false" signature="419:430" ph=" { " />
+            <marker date="1473974799000" expanded="false" signature="442:448" ph=" }" />
+            <marker date="1473974799000" expanded="false" signature="486:497" ph=" { " />
+            <marker date="1473974799000" expanded="false" signature="514:520" ph=" }" />
+            <marker date="1473974799000" expanded="true" signature="553:564" ph=" { " />
+            <marker date="1473974799000" expanded="true" signature="582:588" ph=" }" />
+            <marker date="1473974799000" expanded="false" signature="636:647" ph=" { " />
+            <marker date="1473974799000" expanded="false" signature="676:682" ph=" }" />
+            <marker date="1473974799000" expanded="false" signature="711:722" ph=" { " />
+            <marker date="1473974799000" expanded="false" signature="736:742" ph=" }" />
+            <marker date="1473974799000" expanded="false" signature="782:793" ph=" { " />
+            <marker date="1473974799000" expanded="false" signature="814:820" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <marker date="1473972055000" expanded="true" signature="136:1077" ph="..." />
+            <marker date="1473972055000" expanded="true" signature="143:173" ph="..." />
+            <marker date="1473972055000" expanded="true" signature="180:1069" ph="..." />
+            <marker date="1473972055000" expanded="true" signature="244:1024" ph="..." />
+            <marker date="1473972055000" expanded="true" signature="249:1011" ph="..." />
+            <marker date="1473972055000" expanded="true" signature="258:313" ph="..." />
+            <marker date="1473972055000" expanded="true" signature="331:445" ph="..." />
+            <marker date="1473972055000" expanded="true" signature="390:435" ph="..." />
+            <marker date="1473972055000" expanded="true" signature="472:534" ph="..." />
+            <marker date="1473972055000" expanded="true" signature="552:614" ph="..." />
+            <marker date="1473972055000" expanded="true" signature="632:699" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/voteBill.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <marker date="1472760410000" expanded="true" signature="136:207" ph="..." />
+            <marker date="1472760410000" expanded="true" signature="143:173" ph="..." />
+            <marker date="1472760410000" expanded="true" signature="180:199" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/security/CustomerUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+          <folding>
+            <marker date="1473972701000" expanded="false" signature="34:508" ph="..." />
+            <marker date="1473972701000" expanded="false" signature="41:508" ph="..." />
+            <marker date="1473972701000" expanded="true" signature="163:508" ph="..." />
+            <marker date="1473972701000" expanded="true" signature="510:550" ph="/**...*/" />
+            <marker date="1473972701000" expanded="true" signature="841:922" ph="{...}" />
+            <marker date="1473972701000" expanded="true" signature="1031:1374" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/security/CustomerUserDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <marker date="1473864296000" expanded="true" signature="41:360" ph="..." />
+            <marker date="1473864296000" expanded="true" signature="78:360" ph="..." />
+            <marker date="1473864296000" expanded="true" signature="362:402" ph="/**...*/" />
+            <marker date="1473864296000" expanded="true" signature="632:694" ph="{...}" />
+            <marker date="1473864296000" expanded="true" signature="778:939" ph="{...}" />
+            <marker date="1473864296000" expanded="true" signature="996:1067" ph="{...}" />
+            <marker date="1473864296000" expanded="false" signature="1121:1132" ph=" { " />
+            <marker date="1473864296000" expanded="false" signature="1144:1150" ph=" }" />
+            <marker date="1473864296000" expanded="false" signature="1210:1221" ph=" { " />
+            <marker date="1473864296000" expanded="false" signature="1233:1239" ph=" }" />
+            <marker date="1473864296000" expanded="false" signature="1284:1295" ph=" { " />
+            <marker date="1473864296000" expanded="false" signature="1307:1313" ph=" }" />
+            <marker date="1473864296000" expanded="false" signature="1361:1372" ph=" { " />
+            <marker date="1473864296000" expanded="false" signature="1399:1405" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <marker date="1473701302000" expanded="true" signature="44:369" ph="..." />
+            <marker date="1473701302000" expanded="true" signature="371:410" ph="/**...*/" />
+            <marker date="1473701302000" expanded="true" signature="411:454" ph="@{...}" />
+            <marker date="1473701302000" expanded="true" signature="582:683" ph="{...}" />
+            <marker date="1473701302000" expanded="true" signature="763:901" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/DefaultController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1473179714000" expanded="true" signature="44:465" ph="..." />
+            <marker date="1473179714000" expanded="true" signature="467:506" ph="/**...*/" />
+            <marker date="1473179714000" expanded="false" signature="612:623" ph=" { " />
+            <marker date="1473179714000" expanded="false" signature="647:653" ph=" }" />
+            <marker date="1473179714000" expanded="false" signature="717:728" ph=" { " />
+            <marker date="1473179714000" expanded="false" signature="743:749" ph=" }" />
+            <marker date="1473179714000" expanded="true" signature="871:1154" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/SimpleErrorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <marker date="1472762778000" expanded="true" signature="44:607" ph="..." />
+            <marker date="1472762778000" expanded="true" signature="609:650" ph="@{...}" />
+            <marker date="1472762778000" expanded="true" signature="848:980" ph="{...}" />
+            <marker date="1472762778000" expanded="false" signature="1028:1039" ph=" { " />
+            <marker date="1472762778000" expanded="false" signature="1055:1061" ph=" }" />
+            <marker date="1472762778000" expanded="true" signature="1149:1449" ph="{...}" />
+            <marker date="1472762778000" expanded="true" signature="1517:1708" ph="{...}" />
+            <marker date="1472762778000" expanded="true" signature="1817:1999" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/WebUiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1473269034000" expanded="true" signature="44:149" ph="..." />
+            <marker date="1473269034000" expanded="true" signature="151:190" ph="/**...*/" />
+            <marker date="1473269034000" expanded="true" signature="191:234" ph="@{...}" />
+            <marker date="1473269034000" expanded="true" signature="337:372" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <marker date="1473975474000" expanded="true" signature="44:622" ph="..." />
+            <marker date="1473975474000" expanded="true" signature="626:665" ph="/**...*/" />
+            <marker date="1473975474000" expanded="true" signature="666:708" ph="@{...}" />
+            <marker date="1473975474000" expanded="true" signature="989:1317" ph="{...}" />
+            <marker date="1473975474000" expanded="true" signature="1410:1502" ph="{...}" />
+            <marker date="1473975474000" expanded="true" signature="1603:1688" ph="{...}" />
+            <marker date="1473975474000" expanded="true" signature="1866:2319" ph="{...}" />
+            <marker date="1473975474000" expanded="true" signature="2390:2434" ph="{...}" />
+            <marker date="1473975474000" expanded="true" signature="2435:3557" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <marker date="1473970390000" expanded="true" signature="136:893" ph="..." />
+            <marker date="1473970390000" expanded="true" signature="143:244" ph="..." />
+            <marker date="1473970390000" expanded="true" signature="251:885" ph="..." />
+            <marker date="1473970390000" expanded="true" signature="304:394" ph="..." />
+            <marker date="1473970390000" expanded="true" signature="425:512" ph="..." />
+            <marker date="1473970390000" expanded="true" signature="567:839" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/RFM--application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1472760410000" expanded="false" signature="31:143" ph="..." />
+            <marker date="1472760410000" expanded="false" signature="238:249" ph=" { " />
+            <marker date="1472760410000" expanded="false" signature="296:302" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <marker date="1473970453000" expanded="true" signature="31:796" ph="..." />
+            <marker date="1473970453000" expanded="true" signature="799:832" ph="@{...}" />
+            <marker date="1473970453000" expanded="true" signature="1075:1170" ph="{...}" />
+            <marker date="1473970453000" expanded="true" signature="1251:1733" ph="{...}" />
+            <marker date="1473970453000" expanded="false" signature="1813:1823" ph=" { " />
+            <marker date="1473970453000" expanded="false" signature="1858:1864" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/userPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
