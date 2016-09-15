@@ -26,14 +26,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserRolesDAO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRolesDAO.java">
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,8 +100,8 @@
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRolesDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserDao.java" />
       </list>
     </option>
   </component>
@@ -866,12 +864,12 @@
       <workItem from="1473350533224" duration="18008000" />
       <workItem from="1473694052032" duration="1944000" />
       <workItem from="1473698105523" duration="40823000" />
-      <workItem from="1473875524250" duration="5221000" />
+      <workItem from="1473875524250" duration="5858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107881000" />
+    <option name="totallyTimeSpent" value="108518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="0" />
@@ -1506,24 +1504,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRolesDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
-            <marker date="1473959788000" expanded="false" signature="41:207" ph="..." />
-            <marker date="1473959788000" expanded="true" signature="209:248" ph="/**...*/" />
+            <marker date="1473960426000" expanded="true" signature="41:285" ph="..." />
+            <marker date="1473960426000" expanded="true" signature="287:327" ph="/**...*/" />
+            <marker date="1473960426000" expanded="true" signature="328:386" ph="@{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRolesDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
