@@ -38,13 +38,13 @@ public class User implements Serializable {
     private String ssn;
     private String admin;
 
-    @NotNull
-    @Column(nullable = false)
-    private long accountId;
-
-    @NotNull
-    @Column(nullable = false)
-    private Timestamp created;
+//    @NotNull
+//    @Column(nullable = false)
+//    private long accountId;
+//
+//    @NotNull
+//    @Column(nullable = false)
+//    private Timestamp created;
 
     private Timestamp deactivated;
 
@@ -58,8 +58,8 @@ public class User implements Serializable {
         this.password = user.password;
         this.enabled = user.enabled;
         this.emailVerified = user.emailVerified;
-        this.accountId = user.accountId;
-        this.created = user.created;
+//        this.accountId = user.accountId;
+//        this.created = user.created;
         this.deactivated = user.deactivated;
 
     }
@@ -77,21 +77,21 @@ public class User implements Serializable {
         this.emailVerified = emailVerified;
     }
 
-    public long getAccountId() {
-        return accountId;
-    }
-
-    public void setAccountId(long accountId) {
-        this.accountId = accountId;
-    }
-
-    public Timestamp getCreated() {
-        return created;
-    }
-
-    public void setCreated(Timestamp created) {
-        this.created = created;
-    }
+//    public long getAccountId() {
+//        return accountId;
+//    }
+//
+//    public void setAccountId(long accountId) {
+//        this.accountId = accountId;
+//    }
+//
+//    public Timestamp getCreated() {
+//        return created;
+//    }
+//
+//    public void setCreated(Timestamp created) {
+//        this.created = created;
+//    }
 
     public Timestamp getDeactivated() {
         return deactivated;
