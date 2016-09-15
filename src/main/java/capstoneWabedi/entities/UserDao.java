@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
  * Created by Justin on 9/1/16.
  */
 @Repository
-@Transactional (noRollbackFor = Exception.class)
+//@Transactional (noRollbackFor = Exception.class)
 public interface UserDao extends CrudRepository<User, Long> {
 
     public User findByUserName(String username);
