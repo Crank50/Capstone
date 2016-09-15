@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.security.Timestamp;
 
+import static com.oracle.jrockit.jfr.ContentType.StackTrace;
+
 /**
  * Created by Justin on 9/1/16.
  */
@@ -57,6 +59,7 @@ public class UserController {
         account.setAdmin(admin);
         account.setCreated(new java.sql.Timestamp(System.currentTimeMillis()));
         Thread.currentThread().getStackTrace();
+        System.out.println(StackTrace);
         userDao.save(user);
 
 
