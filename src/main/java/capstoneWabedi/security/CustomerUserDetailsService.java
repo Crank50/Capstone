@@ -17,13 +17,6 @@ import java.util.List;
  */
 @Service("customerUserDetailsService")
 public class CustomerUserDetailsService implements UserDetailsService {
-    @Autowired
-    private CustomerUserDetailsService userDetailsService;
-//    @Override
-    protected void configure(AuthenticationManagerBuilder auth)
-            throws Exception {
-        auth.userDetailsService(userDetailsService);
-    }
 
     private final UserDao userDao;
     private final UserRolesDAO userRolesDAO;
