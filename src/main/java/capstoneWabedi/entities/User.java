@@ -1,7 +1,6 @@
 package capstoneWabedi.entities;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.sql.Timestamp;
 
@@ -51,8 +50,8 @@ public class User implements Serializable {
     private Timestamp deactivated;
 
     public User() {
-        super();
-        this.enabled=false;
+//        super();
+//        this.enabled=false;
     }
 
     public User(User user) {
