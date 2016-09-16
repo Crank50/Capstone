@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="499b5121-b871-4418-a9be-c35093c68c9b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/userAccountPage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Capstone-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/Capstone-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Capstone-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/Capstone-1.0-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/createAccount.jsp" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/createAccount.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/userCreation.jsp" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/userCreation.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/css/adminPage.css" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/css/adminPage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/RFM--application.properties" afterPath="$PROJECT_DIR$/src/main/resources/RFM--application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp" afterPath="$PROJECT_DIR$/target/classes/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/WEB-INF/jsp/Users/createAccount.jsp" afterPath="$PROJECT_DIR$/target/classes/META-INF/resources/WEB-INF/jsp/Users/createAccount.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/css/adminPage.css" afterPath="$PROJECT_DIR$/target/classes/META-INF/resources/css/adminPage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login.jsp" />
     </list>
     <ignored path="Cap$tone WABEDI? ~~ Would Abe Do It?.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application.properties">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="465">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,7 +92,6 @@
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/security/CustomerUserDetailsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRole.java" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/entities/UserRolesDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/WebUi/userPage.jsp" />
         <option value="$PROJECT_DIR$/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/UserController.java" />
@@ -115,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/createAccount.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/Users/adminPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/css/adminPage.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login.jsp" />
       </list>
     </option>
   </component>
@@ -965,12 +952,12 @@
       <workItem from="1473350533224" duration="18008000" />
       <workItem from="1473694052032" duration="1944000" />
       <workItem from="1473698105523" duration="40823000" />
-      <workItem from="1473875524250" duration="15413000" />
+      <workItem from="1473875524250" duration="16044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118073000" />
+    <option name="totallyTimeSpent" value="118704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="28" width="1276" height="777" extended-state="0" />
@@ -1515,36 +1502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <marker date="1473970390000" expanded="true" signature="136:893" ph="..." />
-            <marker date="1473970390000" expanded="true" signature="143:244" ph="..." />
-            <marker date="1473970390000" expanded="true" signature="251:885" ph="..." />
-            <marker date="1473970390000" expanded="true" signature="304:394" ph="..." />
-            <marker date="1473970390000" expanded="true" signature="425:512" ph="..." />
-            <marker date="1473970390000" expanded="true" signature="567:839" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <marker date="1473970453000" expanded="true" signature="31:796" ph="..." />
-            <marker date="1473970453000" expanded="true" signature="799:832" ph="@{...}" />
-            <marker date="1473970453000" expanded="true" signature="1075:1170" ph="{...}" />
-            <marker date="1473970453000" expanded="true" signature="1251:1733" ph="{...}" />
-            <marker date="1473970453000" expanded="false" signature="1813:1823" ph=" { " />
-            <marker date="1473970453000" expanded="false" signature="1858:1864" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/controllers/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -1666,6 +1623,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capstoneWabedi/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="29" column="85" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="85" />
+          <folding>
+            <marker date="1473970453000" expanded="true" signature="31:796" ph="..." />
+            <marker date="1473970453000" expanded="true" signature="799:832" ph="@{...}" />
+            <marker date="1473970453000" expanded="true" signature="1075:1170" ph="{...}" />
+            <marker date="1473970453000" expanded="true" signature="1251:1733" ph="{...}" />
+            <marker date="1473970453000" expanded="false" signature="1813:1823" ph=" { " />
+            <marker date="1473970453000" expanded="false" signature="1858:1864" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>

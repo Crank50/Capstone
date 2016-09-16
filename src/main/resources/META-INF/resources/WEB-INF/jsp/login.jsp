@@ -25,6 +25,7 @@
     <input type="submit" value="Sign In"/>
 </form>
 <a href="/webUi/userPage"> Home </a>
+<a href="/user/createAccount">Create Account</a>
 
 </body>
 </html>
