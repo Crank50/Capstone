@@ -28,8 +28,10 @@ public class User implements Serializable {
     private String userName;
     private String password;
     private String matchingPassword;
+    @Column(name = "enabled")
+    private boolean enabled;
 
-    private int enabled;
+    private int Enabled;
     private String email;
     private boolean emailVerified;
     private String city;
@@ -49,6 +51,8 @@ public class User implements Serializable {
     private Timestamp deactivated;
 
     public User() {
+        super();
+        this.enabled=false;
     }
 
     public User(User user) {
@@ -109,12 +113,20 @@ public class User implements Serializable {
         this.userId = userId;
     }
 
-    public int getEnabled() {
+    public boolean isEnabled() {
         return enabled;
     }
 
-    public void setEnabled(int enabled) {
+    public void setEnabled(boolean enabled) {
         this.enabled = enabled;
+    }
+
+    public int getEnabled() {
+        return Enabled;
+    }
+
+    public void setEnabled(int enabled) {
+        Enabled = enabled;
     }
 
     public String getName() {

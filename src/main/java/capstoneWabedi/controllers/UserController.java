@@ -4,12 +4,12 @@ import capstoneWabedi.entities.User;
 import capstoneWabedi.entities.UserDao;
 import capstoneWabedi.entities.UserRolesDAO;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.util.Assert;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 
 
 
@@ -24,6 +24,9 @@ public class UserController {
     private final UserRolesDAO userRolesDAO;
 
     @Autowired
+    ApplicationEventPublisher eventPublisher;
+
+    @Autowired
     public UserController(UserDao userDao, UserRolesDAO userRolesDAO, PasswordEncoder passwordEncoder) {
         Assert.notNull(userDao, "UserDao must not be null!");
         Assert.notNull(userRolesDAO, "UserDao must not be null!");
@@ -32,6 +35,7 @@ public class UserController {
         this.userRolesDAO = userRolesDAO;
         this.passwordEncoder = passwordEncoder;
     }
+
 
     @RequestMapping(value ="/createAccount")
     public String crtAcnnt(ModelMap modelMap) {
