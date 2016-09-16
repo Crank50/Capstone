@@ -71,11 +71,6 @@
             <version>1.1.0.Final</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.velocity</groupId>
-            <artifactId>velocity</artifactId>
-            <version>1.5</version>
-        </dependency>
-        <dependency>
             <groupId>org.hsqldb</groupId>
             <artifactId>hsqldb</artifactId>
             <version>2.3.4</version>
@@ -85,11 +80,7 @@
             <artifactId>jboss-logging</artifactId>
             <version>3.3.0.Final</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.velocity</groupId>
-            <artifactId>velocity</artifactId>
-            <version>1.5</version>
-        </dependency>
+
 
 
     </dependencies>
