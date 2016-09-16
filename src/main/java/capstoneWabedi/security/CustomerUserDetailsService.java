@@ -4,6 +4,7 @@ import capstoneWabedi.entities.User;
 import capstoneWabedi.entities.UserDao;
 import capstoneWabedi.entities.UserRolesDAO;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -16,6 +17,13 @@ import java.util.List;
  */
 @Service("customerUserDetailsService")
 public class CustomerUserDetailsService implements UserDetailsService {
+    @Autowired
+    private CustomerUserDetailsService userDetailsService;
+//    @Override
+    protected void configure(AuthenticationManagerBuilder auth)
+            throws Exception {
+        auth.userDetailsService(userDetailsService);
+    }
 
     private final UserDao userDao;
     private final UserRolesDAO userRolesDAO;

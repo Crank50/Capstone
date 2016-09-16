@@ -38,20 +38,11 @@ public class User implements Serializable {
     private String phone;
     private String ssn;
     private String admin;
-
-//    @NotNull
-//    @Column(nullable = false)
-//    private long accountId;
-//
-//    @NotNull
-//    @Column(nullable = false)
-//    private Timestamp created;
+    
 
     private Timestamp deactivated;
 
     public User() {
-//        super();
-//        this.enabled=false;
     }
 
     public User(User user) {
@@ -61,8 +52,6 @@ public class User implements Serializable {
         this.password = user.password;
         this.enabled = user.enabled;
         this.emailVerified = user.emailVerified;
-//        this.accountId = user.accountId;
-//        this.created = user.created;
         this.deactivated = user.deactivated;
 
     }
@@ -79,22 +68,6 @@ public class User implements Serializable {
     public void setEmailVerified(boolean emailVerified) {
         this.emailVerified = emailVerified;
     }
-
-//    public long getAccountId() {
-//        return accountId;
-//    }
-//
-//    public void setAccountId(long accountId) {
-//        this.accountId = accountId;
-//    }
-//
-//    public Timestamp getCreated() {
-//        return created;
-//    }
-//
-//    public void setCreated(Timestamp created) {
-//        this.created = created;
-//    }
 
     public Timestamp getDeactivated() {
         return deactivated;
