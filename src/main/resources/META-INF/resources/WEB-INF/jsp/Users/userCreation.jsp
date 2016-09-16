@@ -4,6 +4,8 @@
 <html>
 <head>
     <title> New User</title>
+    <link type="text/css" rel="stylesheet" href="/css/userCreation.css"/>
+
 
 </head>
 <body>

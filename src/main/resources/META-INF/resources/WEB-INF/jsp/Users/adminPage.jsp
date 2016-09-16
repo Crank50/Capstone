@@ -2,7 +2,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title> </title>
+    <title> View Users </title>
+    <link type="text/css" rel="stylesheet" href="/css/adminPage.css"/>
+
 
 </head>
 <body>
@@ -24,7 +26,7 @@
         <c:out value="${user.name}" />
     </th>
     <br>
-    <th>UserName:
+    <th>User UserName:
         <c:out value="${user.userName}" />
     </th>
     <br>
@@ -32,17 +34,29 @@
         <c:out value="${user.password}" />
     </th>
     <br>
+    <th>User Email:
         <c:out value="${user.email}"/>
+    </th>
     <br>
+    <th>User State:
         <c:out value="${user.states}"/>
+    </th>
     <br>
+    <th>User City:
         <c:out value="${user.city}" />
+    </th>
     <br>
+    <th>User Zip:
         <c:out value="${user.zip}" />
+    </th>
     <br>
+    <th>User Phone:
         <c:out value="${user.phone}" />
+    </th>
     <br>
+    <th>User SSN:
         <c:out value="${user.ssn}" />
+    </th>
     <br>
     <br>
 </tr>

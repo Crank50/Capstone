@@ -5,6 +5,8 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+    <link type="text/css" rel="stylesheet" href="/css/createAccount.css"/>
+
 
     <title>WWAD Create Account </title>
 
