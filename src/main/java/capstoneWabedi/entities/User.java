@@ -27,10 +27,9 @@ public class User implements Serializable {
     private String userName;
     private String password;
     private String matchingPassword;
-    @Column(name = "enabled")
-    private boolean enabled;
 
-    private int Enabled;
+
+    private int enabled;
     private String email;
     private boolean emailVerified;
     private String city;
@@ -84,21 +83,14 @@ public class User implements Serializable {
     public void setUserId(long userId) {
         this.userId = userId;
     }
+    
 
-    public boolean isEnabled() {
+    public int getEnabled() {
         return enabled;
     }
 
-    public void setEnabled(boolean enabled) {
-        this.enabled = enabled;
-    }
-
-    public int getEnabled() {
-        return Enabled;
-    }
-
     public void setEnabled(int enabled) {
-        Enabled = enabled;
+        this.enabled = enabled;
     }
 
     public String getName() {
