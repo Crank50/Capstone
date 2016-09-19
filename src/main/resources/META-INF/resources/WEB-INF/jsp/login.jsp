@@ -16,8 +16,8 @@
     <br><br><div style="color: green;">You have been logged out.</div><br><br>
 </c:if>
 <%--'/login'--%>
-<form  action="<c:url value='/login'/>" method="POST" >
-    <input id ="username" type="text" name="username" autofocus required/>
+<form id="userLogin" action="<c:url value='/login'/>" method="POST" >
+    <input  id ="username" type="text" name="username" autofocus required/>
     <br>
     <input type="password" name="password" required/>
     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
