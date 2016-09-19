@@ -4,6 +4,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
@@ -23,7 +24,8 @@ public class DefaultController {
 
 
     @RequestMapping(value="/login")
-    public String login() {
+    public String login(ModelMap modelMap,String username) {
+        modelMap.addAttribute("username", username);
         return "login";
     }
 
