@@ -17,7 +17,7 @@ public class WebUiController {
     }
 
     @RequestMapping(value ="/voteBill")
-    public String userPage() {
+    public String voteBill() {
         return "WebUi/voteBill";}
     }
 
