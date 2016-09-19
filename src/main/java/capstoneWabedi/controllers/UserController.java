@@ -75,9 +75,9 @@ public class UserController {
         return "/Users/adminPage";
     }
     @RequestMapping(value="/userAccountPage")
-    public String userAccountPage(String username, ModelMap modelMap, UserDetailsService userDetailsService) {
+    public String userAccountPage(String username, ModelMap modelMap,User user) {
         modelMap.addAttribute("username", username);
-        userDetailsService.loadUserByUsername(username);
+        user.getUserName();
 
 
         return "/Users/userAccountPage";
