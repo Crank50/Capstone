@@ -18,7 +18,7 @@ public class DefaultController {
 
     @RequestMapping(value="/")
     public String jspIndex() {
-        return "WebUi/mainPage";
+        return "WebUi/voteBill";
     }
 
 
