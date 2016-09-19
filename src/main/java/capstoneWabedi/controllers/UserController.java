@@ -75,7 +75,7 @@ public class UserController {
     }
     @RequestMapping(value="/userAccountPage")
     public String userAccountPage(String userName, ModelMap modelMap) {
-        modelMap.addAttribute("username", userName);
+        modelMap.addAttribute("userName", userName);
 
 
         return "/Users/userAccountPage";
