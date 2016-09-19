@@ -27,7 +27,7 @@
 <%--</form>--%>
 
 
-<form:form id="userForm" modelAttribute="user" method="POST" action="/login" >
+<form:form id="userForm" method="POST" action="/login" >
 
     <form:label path="userName" >UserName: </form:label>
     <form:input path="userName" id="userName"  placeholder="Username"  />
