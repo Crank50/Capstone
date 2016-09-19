@@ -14,7 +14,7 @@ public class WebUiController {
     @RequestMapping(value ="/userPage")
     public String userPage() {
         return "WebUi/userPage";}
-    
+
 
     @RequestMapping(value ="/voteBill")
     public String voteBill() {
