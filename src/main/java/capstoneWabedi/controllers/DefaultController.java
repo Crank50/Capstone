@@ -16,10 +16,10 @@ import javax.servlet.http.HttpServletResponse;
 @Controller
 public class DefaultController {
 
-//    @RequestMapping(value="/")
-//    public String jspIndex() {
-//        return "WebUi/mainPage";
-//    }
+    @RequestMapping(value="/")
+    public String jspIndex() {
+        return "WebUi/mainPage";
+    }
 
 
     @RequestMapping(value="/login")
