@@ -64,7 +64,7 @@ public class UserController {
         userDao.save(user);
 
 
-        return "/WebUi/userPage";
+        return "/Users/userAccountPage";
     }
     @RequestMapping(value="/adminPage")
     public String adminPage() {
