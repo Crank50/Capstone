@@ -1,7 +1,9 @@
 package capstoneWabedi.controllers;
 
+import capstoneWabedi.entities.User;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -24,7 +26,8 @@ public class DefaultController {
 
 
     @RequestMapping(value="/login")
-    public String login(ModelMap modelMap,String username) {
+    public String login(ModelMap modelMap, String username, UserDetailsService userDetailsService) {
+        userDetailsService.loadUserByUsername(username);
         modelMap.addAttribute("username", username);
         return "login";
     }
