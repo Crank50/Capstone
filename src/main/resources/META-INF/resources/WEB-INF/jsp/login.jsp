@@ -14,8 +14,8 @@
 <c:if test="${!empty logout}">
     <br><br><div style="color: green;">You have been logged out.</div><br><br>
 </c:if>
-
-<form action="<c:url value='/login'/>" method="POST">
+<%--'/login'--%>
+<form action="<c:url value='Users/userAccountPage.jsp'/>" method="POST">
     <input type="text" name="username" autofocus required/>
     <br>
     <input type="password" name="password" required/>
