@@ -5,6 +5,7 @@ import capstoneWabedi.entities.UserDao;
 import capstoneWabedi.entities.UserRolesDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -74,8 +75,9 @@ public class UserController {
         return "/Users/adminPage";
     }
     @RequestMapping(value="/userAccountPage")
-    public String userAccountPage(String username, ModelMap modelMap) {
+    public String userAccountPage(String username, ModelMap modelMap, UserDetailsService userDetailsService) {
         modelMap.addAttribute("username", username);
+        userDetailsService.loadUserByUsername(username);
 
 
         return "/Users/userAccountPage";
