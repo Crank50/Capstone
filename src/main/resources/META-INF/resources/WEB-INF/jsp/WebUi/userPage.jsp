@@ -16,6 +16,8 @@
 <th><a href="/user/createAccount">Create Account</a></th>
         <th>  |  </th>
 <th><a href="/admin/">View all Users</a>
+        <th>  |  </th>
+        <th><a href="/WebUi/voteBill">Go Vote!</a></th>
     </tr>
     </table>
 

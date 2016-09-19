@@ -83,7 +83,7 @@ public class User implements Serializable {
     public void setUserId(long userId) {
         this.userId = userId;
     }
-    
+
 
     public int getEnabled() {
         return enabled;
