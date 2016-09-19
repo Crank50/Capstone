@@ -15,7 +15,7 @@
     <br><br><div style="color: green;">You have been logged out.</div><br><br>
 </c:if>
 <%--'/login'--%>
-<form action="<c:url value='Users/userAccountPage.jsp'/>" method="POST">
+<form action="<c:url value='/login'/>" method="POST">
     <input type="text" name="username" autofocus required/>
     <br>
     <input type="password" name="password" required/>
