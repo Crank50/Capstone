@@ -27,6 +27,7 @@ public class User implements Serializable {
 
         @Column(name="username")
     private String userName;
+
     private String password;
     private String matchingPassword;
 
@@ -57,7 +58,7 @@ public class User implements Serializable {
         this.deactivated = user.deactivated;
 
     }
-    
+
 
     public static long getSerialVersionUID() {
         return serialVersionUID;

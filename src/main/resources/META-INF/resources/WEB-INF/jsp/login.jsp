@@ -15,16 +15,18 @@
 <c:if test="${!empty logout}">
     <br><br><div style="color: green;">You have been logged out.</div><br><br>
 </c:if>
-<%--'/login'--%>
-<form id="userLogin" action="<c:url value='/login'/>" method="POST" >
-    <input  id ="username" type="text" name="username" autofocus required/>
+<form:form id="accountType" commandName="accountType" modelAttribute="accountType" action="/login" method="POST" >
+    <form:label path="username">Enter UserName: </form:label>
+    <form:input path="username" id="username"/>
     <br>
-    <input type="password" name="password" required/>
+
+    <form:label path="password">Enter Password: </form:label>
+    <form:input path="password" id="password"/>
     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
     <br>
     <br>
     <input type="submit" value="Sign In"/>
-</form>
+</form:form>
 
 <a href="/webUi/userPage"> Home </a>
 <a href="/user/createAccount">Create Account</a>

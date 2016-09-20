@@ -1,8 +1,6 @@
 package capstoneWabedi.controllers;
 
-import capstoneWabedi.entities.User;
-import capstoneWabedi.entities.UserDao;
-import capstoneWabedi.entities.UserRolesDAO;
+import capstoneWabedi.entities.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -24,16 +22,21 @@ public class UserController {
     private final PasswordEncoder passwordEncoder;
     private final UserDao userDao;
     private final UserRolesDAO userRolesDAO;
+    private final AccountTypeDAO accountTypeDAO;
 
     @Autowired
     ApplicationEventPublisher eventPublisher;
 
+
+
     @Autowired
-    public UserController(UserDao userDao, UserRolesDAO userRolesDAO, PasswordEncoder passwordEncoder) {
+    public UserController(UserDao userDao, UserRolesDAO userRolesDAO,AccountTypeDAO accountTypeDAO, PasswordEncoder passwordEncoder) {
         Assert.notNull(userDao, "UserDao must not be null!");
-        Assert.notNull(userRolesDAO, "UserDao must not be null!");
-        Assert.notNull(passwordEncoder, "UserDao must not be null!");
+        Assert.notNull(userRolesDAO, "UserRolesDao must not be null!");
+        Assert.notNull(passwordEncoder, "passwordEncoder must not be null!");
+        Assert.notNull(accountTypeDAO,"accountTypeDAO must not be null!");
         this.userDao = userDao;
+        this.accountTypeDAO = accountTypeDAO;
         this.userRolesDAO = userRolesDAO;
         this.passwordEncoder = passwordEncoder;
     }
@@ -52,7 +55,7 @@ public class UserController {
 
 
     @RequestMapping(value="/saveNewUser")
-    public String saveNewUser(User user,ModelMap modelMap, String name, String userName, String password,String admin,String email) {
+    public String saveNewUser(User user,ModelMap modelMap, String name, String userName, String password,String admin,String email,AccountType.TYPE accountType) {
         modelMap.addAttribute("user", user);
         user.setUserId(user.getUserId());
         user.setName(name);
@@ -64,7 +67,14 @@ public class UserController {
 //        account.setCreated(new java.sql.Timestamp(System.currentTimeMillis()));
 
         userDao.save(user);
-
+        UserRole userRole = new UserRole();
+        userRole.setUserId(user.getUserId());
+        if(accountType == AccountType.TYPE.SYSTEM_ADMIN){
+            userRole.setRole("SYSTEM_ADMIN");
+        } else {
+            userRole.setRole("ACCOUNT_ADMIN");
+        }
+        userRolesDAO.save(userRole);
 
         return "/Users/userAccountPage";
     }
@@ -75,7 +85,10 @@ public class UserController {
         return "/Users/adminPage";
     }
     @RequestMapping(value="/userAccountPage")
-    public String userAccountPage() {
+    public String userAccountPage(AccountType accountType,String username, ModelMap modelMap) {
+        modelMap.addAttribute("accountType", accountType);
+        System.out.println(username);
+        System.out.println("directs to /useraccountPage methodology");
         return "/Users/userAccountPage";
     }
 //    private void addUploadToDatabase(String filePath) {

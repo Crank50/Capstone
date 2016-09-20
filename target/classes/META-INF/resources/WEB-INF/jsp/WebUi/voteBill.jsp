@@ -6,7 +6,7 @@
 
 </head>
 <body>
-<h1></h1>
+<h1>Voting Page</h1>
 
 </body>
 </html>

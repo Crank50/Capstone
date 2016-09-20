@@ -10,6 +10,7 @@ capstoneWabedi/entities/User.class
 capstoneWabedi/entities/UserDao.class
 capstoneWabedi/controllers/UserController.class
 capstoneWabedi/security/CustomerUserDetails.class
+capstoneWabedi/entities/AccountType$TYPE.class
 capstoneWabedi/entities/User$STATES.class
 capstoneWabedi/entities/AccountTypeDAO.class
 capstoneWabedi/entities/BillsDao.class
