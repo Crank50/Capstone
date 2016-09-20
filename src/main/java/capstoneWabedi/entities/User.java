@@ -1,8 +1,10 @@
 package capstoneWabedi.entities;
 
+import javax.management.relation.Role;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.sql.Timestamp;
+import java.util.Collection;
 
 /**
  * Created by Justin on 9/1/16.
@@ -39,6 +41,7 @@ public class User implements Serializable {
     private String admin;
 
 
+
     private Timestamp deactivated;
 
     public User() {
@@ -54,7 +57,7 @@ public class User implements Serializable {
         this.deactivated = user.deactivated;
 
     }
-
+    
 
     public static long getSerialVersionUID() {
         return serialVersionUID;
@@ -180,7 +183,6 @@ public class User implements Serializable {
     public void setAdmin(String admin) {
         this.admin = admin;
     }
-
 
 
 }
