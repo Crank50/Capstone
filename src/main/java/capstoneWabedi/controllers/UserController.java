@@ -55,7 +55,8 @@ public class UserController {
 
 
     @RequestMapping(value="/saveNewUser")
-    public String saveNewUser(User user,ModelMap modelMap, String name, String userName, String password,String admin,String email) {
+    public String saveNewUser(User user,ModelMap modelMap, String name, String userName, String password,String admin,String email        ,AccountType.TYPE accountType
+    ) {
         modelMap.addAttribute("user", user);
         user.setUserId(user.getUserId());
         user.setName(name);
@@ -64,17 +65,16 @@ public class UserController {
         user.setEmail(email);
         user.setEnabled(1);
         user.setAdmin(admin);
-//        account.setCreated(new java.sql.Timestamp(System.currentTimeMillis()));
+//        user.set(new java.sql.Timestamp(System.currentTimeMillis()));
         userDao.save(user);
-//        ,AccountType.TYPE accountType
-//        UserRole userRole = new UserRole();
-//        userRole.setUserId(user.getUserId());
-//        if(accountType == AccountType.TYPE.SYSTEM_ADMIN){
-//            userRole.setRole("SYSTEM_ADMIN");
-//        } else {
-//            userRole.setRole("ACCOUNT_ADMIN");
-//        }
-//        userRolesDAO.save(userRole);
+        UserRole userRole = new UserRole();
+        userRole.setUserId(user.getUserId());
+        if(accountType == AccountType.TYPE.SYSTEM_ADMIN){
+            userRole.setRole("SYSTEM_ADMIN");
+        } else {
+            userRole.setRole("ACCOUNT_ADMIN");
+        }
+        userRolesDAO.save(userRole);
 
         return "/Users/userAccountPage";
     }
