@@ -26,8 +26,9 @@ public class DefaultController {
 
 
     @RequestMapping(value="/login")
-    public String login(ModelMap modelMap, String username) {
+    public String login(ModelMap modelMap, String username,AccountType accountType) {
         modelMap.addAttribute("accountType", new AccountType());
+        modelMap.addAttribute("accountType", accountType);
         System.out.println(username);
         System.out.println("action to the /login method");
         return "login";
