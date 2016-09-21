@@ -6,7 +6,20 @@
 
 </head>
 <body>
-<h1>Voting Page</h1>
+<h1>Load Bills</h1>
+
+<form method="POST" enctype="multipart/form-data" action="/admin/saveUploadedQuestions">
+    <table>
+        <tr>
+            <td>File to upload:</td>
+            <td><input type="file" name="QuizQuestionsFile" /></td>
+        </tr>
+        <tr>
+            <td><input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" /></td>
+            <td><input type="submit" value="Upload" /></td>
+        </tr>
+    </table>
+</form>
 
 </body>
 </html>

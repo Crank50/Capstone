@@ -6,8 +6,9 @@
 
 </head>
 <body>
-<h1>Welcome  <c:out value="${accountType.username}" /></h1>
+<h1>Welcome  <c:out value="${user.userName}" /></h1>
 <a href="/webUi/userPage"> Home </a>
+<a href="addBills.jsp">Add Bills</a>
 
 </body>
 </html>
