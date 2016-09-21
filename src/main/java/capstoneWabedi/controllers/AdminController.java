@@ -29,4 +29,11 @@ public class AdminController {
         modelMap.addAttribute("users", users);
         return "Users/adminPage";
     }
+    @RequestMapping(value = "/uploadBills")
+    public String uploadBills(){
+
+        return "Users/addBills";
+    }
+
+
 }

@@ -8,7 +8,7 @@
 <body>
 <h1>Welcome  <c:out value="${user.userName}" /></h1>
 <a href="/webUi/userPage"> Home </a>
-<a href="addBills.jsp">Add Bills</a>
+<a href="/admin/uploadBills">Add Bills</a>
 
 </body>
 </html>
