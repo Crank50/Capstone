@@ -2,6 +2,8 @@ package capstoneWabedi.controllers;
 
 import capstoneWabedi.entities.User;
 import capstoneWabedi.entities.UserDao;
+import org.apache.tomcat.util.http.fileupload.FileUpload;
+import org.apache.tomcat.util.http.fileupload.FileUploadBase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -60,3 +62,4 @@ public class AdminController {
 
 
 }
+
