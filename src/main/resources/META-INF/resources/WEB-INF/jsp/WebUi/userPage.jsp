@@ -11,13 +11,16 @@
 <table>
     <tr>
 
-<th><a href="/login">Login</a></th>
-<th>  |  </th>
-<th><a href="/user/createAccount">Create Account</a></th>
+        <th><a href="/login">Login</a></th>
         <th>  |  </th>
-<th><a href="/admin/">View all Users</a>
+        <th><a href="/user/createAccount">Create Account</a></th>
+        <th>  |  </th>
+        <th><a href="/admin/">View all Users</a>
         <th>  |  </th>
         <th><a href="/webUi/voteBill">Go Vote!</a></th>
+
+        <th>  |  </th>
+        <th><a href="/user/userAccountPage">Go Vote!</a></th>
     </tr>
     </table>
 
