@@ -8,7 +8,7 @@
 <body>
 <h1>Load Bills</h1>
 
-<form method="POST" enctype="multipart/form-data" action="/admin/saveUploadedQuestions">
+<form method="POST" enctype="multipart/form-data" action="/admin/saveUploadedBills">
     <table>
         <tr>
             <td>File to upload:</td>

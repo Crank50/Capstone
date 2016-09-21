@@ -7,6 +7,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.util.Assert;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.view.RedirectView;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 /**
  * Created by Justin on 9/1/16.
@@ -31,8 +37,25 @@ public class AdminController {
     }
     @RequestMapping(value = "/uploadBills")
     public String uploadBills(){
-
         return "Users/addBills";
+    }
+
+
+    @RequestMapping(value = "/saveUploadedBills")
+    public String saveUploadedBills(MultipartFile BillsFile){
+        String returnView = "";
+        if (!BillsFile.isEmpty()) {
+            try {
+                Files.write(Paths.get("/Users/Justin/UPLOADS_Bills/"+BillsFile.getOriginalFilename()),BillsFile.getBytes());
+                System.out.println("-------- File Upload Successful");
+//                addUploadToDatabase("/Users/Justin/UPLOADS_Bills/"+BillsFile.getOriginalFilename());
+            } catch (IOException | RuntimeException e) {
+                e.printStackTrace();
+            }
+        } else {
+            System.out.println("-------- File Is EMPTY!");
+        }
+        return "Users/adminPage";
     }
 
 
